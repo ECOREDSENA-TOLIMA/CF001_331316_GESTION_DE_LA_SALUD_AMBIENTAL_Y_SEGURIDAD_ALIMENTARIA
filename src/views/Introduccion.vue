@@ -8,6 +8,11 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    p Bienvenidos a este componente formativo relacionado con los fundamentos y la normatividad vigente en la prestación de servicios de salud. Este es la base normativa en el orden la prestación de servicios de salud, en el marco de la calidad que obliga a todos los actores partícipes del proceso. 
+    p.mb-5 Se invita a ver el siguiente video en donde encontrará de manera general la información concerniente al tema de la normatividad que regula los procesos de gestión en seguridad sanitaria y salud ambiental:
+
+    
     
 </template>
 

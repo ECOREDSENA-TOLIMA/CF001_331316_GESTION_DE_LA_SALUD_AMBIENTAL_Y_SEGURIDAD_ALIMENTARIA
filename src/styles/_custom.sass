@@ -2,13 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 10%
 
 
 @keyframes float1
@@ -17,3 +12,160 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__componente h1
+  color: #000 !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #000 !important
+
+.boton *, .boton--sm *
+  color: #fff !important
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+.tema1
+  .tabla-a th
+    background-color: $color-acento-contenido
+  .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+    background-color: $color-acento-botones
+    color: #fff !important
+  .cajon.color-primario
+    background-color: #EAF2E1
+  .custom-c
+    .tarjeta.tarjeta--custom--borde
+      border: 2px solid $color-primario
+    .tarjeta-avatar-b__img
+      min-width: 13%
+      max-width: 13%
+      img
+        width: 50%
+    .tarjeta.tarjeta--custom--borde
+      padding-left: 5%
+  .tabs-a__tab
+    background-color: #F1ECE6
+  .tarjetas-up
+    overflow: hidden
+    border-radius: 5px
+    position: relative
+    &_card
+      transition: bottom .3s ease-in-out
+      position: absolute
+      border-radius: 5px
+      width: 100%
+      height: 100%
+      left: 0
+      bottom: -75%
+      @media (max-width: $bp-max-md)
+        bottom: -75%
+      i:last-child
+        display: none
+    &:hover
+      .tarjetas-up_card
+        bottom: 0%
+        @media (max-width: $bp-max-xl)
+          bottom: -15%
+        @media (max-width: $bp-max-lg)
+          bottom: 0
+        @media (max-width: $bp-max-md)
+          bottom: -30%
+        @media (max-width: $bp-max-sm)
+          bottom: -20%
+        @media (max-width: $bp-max-xs)
+          bottom: 0
+      i:first-child
+        display: none
+      i:last-child
+        display: block
+  .cajon.color-secundario
+    background-color: lighten(#C1CDF5, 10%)
+  .tarjeta.color-primario1
+    background-color: lighten($color-primario, 10%)
+  .tarjeta.color-secundario1
+    background-color: #FFFF
+  .tarjeta--tabla1
+    background-color: lighten($color-primario, 10%)
+  .tarjeta--tabla2
+    background-color: lighten($color-secundario, 10%)
+
+.tema2
+  .tarjeta.color-primario
+    background-color: lighten($color-primario, 10%)
+  .custom-c
+    .tarjeta.tarjeta--custom--borde
+      border: 2px solid $color-primario
+    .tarjeta-avatar-b__img
+      min-width: 15%
+      max-width: 15%
+      img
+        width: 50%
+    .tarjeta.tarjeta--custom--borde
+      padding-left: 5%
+  .lista-custom
+    i
+      display: inline-block
+    img
+      width: 60px
+      height: 60px
+    span
+      color: $black !important
+  math,mfrac,mrow
+    font-weight: 900
+    font-size: small !important
+    font-family: "Roboto", sans-serif
+  .tabla-b td,.tabla-b th
+    border: 1px solid #a89e9e
+  .tarjeta-avatar
+    height: 90%
+    position: relative
+    padding-top: 42px
+    .tarjeta 
+      padding-left: 1.2rem
+      padding-right: 1.2rem
+      p
+        font-weight: bold
+  .tarjeta.tarjeta--custom
+    background-color: #FFFFFF
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.0px
+  .tarjeta-avatar-b__img 
+    img
+      width: 80%
+  .tarjeta-avatar-b .tarjeta
+    padding-left: 6%
+    margin-left: -11%
+  .color-secundario.pasos-custom 
+    display: flex
+    align-items: center
+    .pasos-a__circle 
+      background-color: $color-secundario
+    .h2
+      color: #FFFFFF
+  .cajon.color-secundario
+    background-color: lighten(#C1CDF5, 10%)
+  .tarjeta-avatar1
+    height: 100%
+    position: relative
+    padding-top: 75px
+  .tarjeta-avatar1>img
+    position: absolute
+    left: 25.5%
+    top: 0
+    transform: translateX(-50)
+    display: block
+    width: 150px
+    margin: 0 auto
+  .tarjeta-avatar1 .tarjeta1
+    display: inline-block
+    padding-top: 60px !important
+    height: 100%
+  .tarjeta1
+    border-radius: 20px
