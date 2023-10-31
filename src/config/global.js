@@ -4,7 +4,7 @@ export default {
       'Fundamentos y normatividad vigente en prestación de servicios de salud',
     descripcionCurso:
       'El sistema general de seguridad social en salud de carácter obligatorio busca garantizar la prestación del servicio de forma pertinente, accesible, continuo, oportuno y seguro en todos los procesos. Este sistema se ha actualizado para potencializar la calidad en el servicio, articulando otros procesos como el SUH, PAMEC, el SUA y el Sistema de información para la calidad en salud. ',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {

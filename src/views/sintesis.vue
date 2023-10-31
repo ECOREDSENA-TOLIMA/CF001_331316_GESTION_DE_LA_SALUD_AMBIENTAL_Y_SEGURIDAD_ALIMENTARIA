@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El SGSSS, responde a lineamientos normativos nacionales, que se fundamentan en la Constitución Política de Colombia. Y se permite su práctica desde la Ley 100 de 1993 y sus posteriores ajustes, mediante la promoción de acciones como el MIAS, que involucran la calidad del servicio, así como la garantía en su prestación, desde la habilitación, la acreditación, y las auditorias que le corresponden.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

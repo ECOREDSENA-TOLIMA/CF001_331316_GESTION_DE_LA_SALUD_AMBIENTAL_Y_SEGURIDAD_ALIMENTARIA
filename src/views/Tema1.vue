@@ -95,7 +95,7 @@
       //- text-small se usa para que los títulos sean mas pequeños
       LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="(1886 - 1950)")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Modelo higienista <br> (1886 - 1950)
             p A partir de 1947 la atención de aspectos de carácter sanitario fue realizada así:
             ul.lista-ul.mb-3
@@ -112,25 +112,27 @@
             p En el año 1945 se crean las Cajas de previsión social - CAJANAL.
             p En el año 1946 se crea el Instituto Colombiano de Seguros Sociales (ICSS) o también llamado Instituto de Seguros Sociales.
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
 
 
         .row(titulo="(1970 - 1989)")
-          .col-md-6.mb-4.mb-md-0
-            h3 Sistema nacional de salud <br> (1970 - 1989)
+          .col-md-6.mb-4.mb-md-0.col-ipad
+            h3 Sistema Nacional de Salud - SNS<br> (1970 - 1989)
             p Se acudió a la teoría general de sistemas frente a la diversidad de instituciones prestadoras de servicios.
             p El servicio de salud se convierte en parte integral de la planeación socioeconómica del país.
             p Se adopta el Plan decenal de salud de Las Américas OPS/OMS, 1973, el cual concreta el Sistema Nacional de Salud – SNS
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
 
 
         .row(titulo="(1990 - 1992)")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Sistema de salud <br> (1990 - 1992)
             p Se fundamenta en la Ley 10 de 1990, que dispone entre otros los siguientes criterios:
             ul.lista-ul.mb-3
@@ -143,19 +145,21 @@
             p La administración de la salud se debe desarrollar en asocio con las entidades territoriales, de sus entes descentralizados y de las personas privadas autorizadas para el efecto.
             p El Estado intervendrá en el servicio público de salud.
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-7.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema1/img-7.png', alt='Texto que describa la imagen')
 
         .row(titulo="(1993 a la fecha)")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Sistema general de seguridad social en salud <br> (1993 a la fecha)
             p La reforma de la seguridad social tiene lugar en el contexto de los procesos de apertura y globalización, de la necesidad de corregir defectos en eficiencia, equidad, cobertura, integralidad y calidad, y del desarrollo legislativo de la nueva Constitución de 1991, la cual indica de manera taxativa que “la seguridad social es un servicio público” y “se prestará bajo la coordinación y control del Estado”.
             p La Ley 100/1993 establece por primera vez en el país un sistema de seguridad social en salud con vocación explícita de cobertura universal, bajo los principios de equidad, solidaridad, eficiencia, calidad y participación social. 
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-8.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema1/img-8.png', alt='Texto que describa la imagen')
 
     Separador 
     
@@ -193,7 +197,7 @@
       .col-12(data-aos="fade-down-right")
         .cajon.color-primario.p-4.mb-4
           p Igualmente, pretende ampliar de forma progresiva la cobertura a los segmentos de población no cubiertos por el sistema. Este sistema lo conforma el régimen solidario de prima media con prestación definida y el régimen de ahorro individual con solidaridad.
-          p Los referidos regímenes buscan garantizar a sus afiliados y a sus beneficiarios cuando sea el caso las siguientes prestaciones económicas: pensión de vejez, pensión de invalidez, pensión de sobrevivientes, indemnización sustitutiva o devolución de saldos y, auxilio funerario.
+          p Los referidos regímenes buscan garantizar a sus afiliados y a sus beneficiarios cuando sea el caso las siguientes prestaciones económicas: pensión de vejez, pensión de invalidez, pensión de sobrevivientes, indemnización sustitutiva o devolución de saldos y auxilio funerario.
 
     p.mb-5 A continuación, podrá consultar en detalle los regímenes asociados con el sistema general de pensiones:
 
@@ -469,7 +473,7 @@
               h5.mb-0 <strong>Víctimas de violencia</strong>
             p.mb-0.text-small Los niños, niñas y adolescentes víctimas de violencia física o sexual y todas las formas de maltrato, que estén certificados por la autoridad competente, tendrán acceso gratuito a los servicios para la rehabilitación física y mental.
 
-    p.mb-5 Tenga presente que la atención en los siguientes servicios es gratuita, independientemente de la edad y del nivel socioeconómico.    
+    p.mb-5 Se debe tener presente que la atención en los siguientes servicios es gratuita, independientemente de la edad y del nivel socioeconómico.    
     
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
@@ -542,14 +546,14 @@
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/decorador-10.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
+          img(src='@/assets/curso/temas/tema1/decorador-11.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#EAF2E1; width:100%")
             .p-4
               p Contribuye a la dirección, universalización, financiación y equilibrio entre los aseguradores y los prestadores que hacen parte del sistema. 
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/decorador-10.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
+          img(src='@/assets/curso/temas/tema1/decorador-12.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#EAF2E1; width:100%")
             .p-4
               p Garantiza el fortalecimiento en los programas de salud pública y de todas aquellas actividades orientadas a inspeccionar, vigilar, controlar, organizar y definir el funcionamiento de las redes para la prestación de servicios de salud.  
@@ -783,14 +787,15 @@
       li 
         .lista-ol--cuadro__vineta
           span 2
-        | <strong>Ley 1438 de 2011</strong> fue creada con el fin de reformar el sistema, logrando así reforzar y mejorar la prestación del servicio. Este fortalecimiento se basa en la atención primaria en salud y tiene como objetivo actuar en conjunto con el Estado, las instituciones y la sociedad, con el fin de mejorar la salud por medio de la creación de ambientes saludables. Para garantizar estas acciones la norma incluye los lineamientos necesarios para que el Ministerio de Salud y Protección Social genere el Plan decenal de salud pública, el cual debe ayudar a mejorar el estado de salud de la población por medio de las acciones en salud pública, la atención primaria en salud y las actividades de promoción y prevención. 
+        | <strong>Ley 1438 de 2011,</strong> fue creada con el fin de reformar el sistema, logrando así reforzar y mejorar la prestación del servicio. Este fortalecimiento se basa en la atención primaria en salud y tiene como objetivo actuar en conjunto con el Estado, las instituciones y la sociedad, con el fin de mejorar la salud por medio de la creación de ambientes saludables. Para garantizar estas acciones la norma incluye los lineamientos necesarios para que el Ministerio de Salud y Protección Social genere el Plan decenal de salud pública, el cual debe ayudar a mejorar el estado de salud de la población por medio de las acciones en salud pública, la atención primaria en salud y las actividades de promoción y prevención. 
     
     p.mb-5 Los principales elementos de esta ley son: 
 
-    .row.mb-5 
-      .col-4
-        img(src='@/assets/curso/temas/tema1/img-32.png')
-      .col-4
+    .row.mb-5
+      .col-md-4
+        figure
+          img.mb-3(src='@/assets/curso/temas/tema1/img-32.png', alt='Imagen decorativa') 
+      .col-md-4.mb-5.mb-md-0
         LineaTiempoD.color-acento-botones
           p.text-small(numero="1" titulo="Atención primaria en salud") Trabaja sobre la promoción de la salud, prevención de la enfermedad, actividades diagnósticas, tratamiento y rehabilitación en todos los niveles de atención. Fortaleciendo servicios de baja complejidad y optimizando la capacidad resolutiva mediante el apoyo a equipos básicos de salud, quienes realizan el diagnóstico, identifican los riesgos, informan sobre el portafolio de servicios, promueven la afiliación e inducen la demanda de servicios. 
           
@@ -802,7 +807,7 @@
           
           p.text-small(numero="5" titulo="Régimen subsidiado") Será administrado por los entes territoriales.
 
-      .col-4
+      .col-md-4
         LineaTiempoD.color-acento-botones
           p.text-small(numero="6" titulo="Universalización del aseguramiento") Indica que todas las personas tendrán derecho acceder a los servicios de salud, incluso,  a las personas que provienen del extranjero se les ofrecerá seguro médico o plan voluntario de salud (plan de atención complementaria, medicina prepagada, pólizas de seguros y otros planes autorizados por la Superintendencia financiera y la Superintendencia nacional de salud.
           
@@ -817,8 +822,8 @@
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta
-          span 2
-        | Si bien es cierto la Ley 1438 de 2011 propuso lineamientos que permitieron la construcción del actual Modelo integral de atención en salud (MIAS) propuesto por el Gobierno Nacional por medio de la <strong>Ley estatutaria 1751 de 2015,</strong> fue esta última la que apropia y ordena los servicios de salud, además de hacer un puente efectivo de comunicación y acción con la comunidad y, contribuir en el fortalecimiento de las capacidades institucionales en función de la prevención y la promoción. 
+          span 3
+        | Si bien es cierto la Ley 1438 de 2011, propuso lineamientos que permitieron la construcción del actual Modelo integral de atención en salud (MIAS) propuesto por el Gobierno Nacional por medio de la <strong>Ley estatutaria 1751 de 2015,</strong> fue esta última la que apropia y ordena los servicios de salud, además de hacer un puente efectivo de comunicación y acción con la comunidad y, contribuir en el fortalecimiento de las capacidades institucionales en función de la prevención y la promoción. 
 
     p.mb-5 Esta ley estatutaria busca principalmente la calidad, la atención integral, la continuidad – oportunidad, la reducción de las desigualdades, la idoneidad y la obligatoriedad sobre zonas marginales; esta atención integral se realiza por medio de la política de atención integral en salud, la cual opera a través de diversos componentes, los cuales son: 
 
@@ -974,7 +979,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | En la reglamentación orientada hacia la política de atención integral en salud se debe tener presente la <strong>Resolución 429 de 2016,</strong> que crea los fundamentos enfocados en la Política de Atención Integral en Salud- PAIS, y se operativiza mediante el Modelo integral de atención en salud - MIAS. Cabe resaltar que la política de atención integral sienta sus bases en la atención primaria en salud - APS y tiene en cuenta elementos como la salud comunitaria y familiar, la gestión integral del riesgo, el cuidado, y así mismo, el enfoque diferencial entre territorios y poblaciones. <br><br> La política de atención integral en salud - PAIS garantiza su modelo operacional por medio del modelo integral de atención en salud - MIAS, el cual pone en marcha todo el conjunto de políticas, planes, proyectos, normas, guías, lineamientos, protocolos, instrumentos, metodologías, documentos técnicos, logrando un efecto positivo sobre los objetivos del Sistema obligatorio de garantía de la calidad.  
+            | En la reglamentación orientada hacia la política de atención integral en salud se debe tener presente la <strong>Resolución 429 de 2016,</strong> que crea los fundamentos enfocados en la Política de Atención Integral en Salud- PAIS, y se operativiza mediante el Modelo Integral de Atención en Salud - MIAS. Cabe resaltar que la política de atención integral sienta sus bases en la Atención Primaria en Salud - APS y tiene en cuenta elementos como la salud comunitaria y familiar, la gestión integral del riesgo, el cuidado, y así mismo, el enfoque diferencial entre territorios y poblaciones. <br><br> La Política de Atención Integral en Salud - PAIS garantiza su modelo operacional por medio del Modelo Integral de Atención en Salud - MIAS, el cual pone en marcha todo el conjunto de políticas, planes, proyectos, normas, guías, lineamientos, protocolos, instrumentos, metodologías, documentos técnicos, logrando un efecto positivo sobre los objetivos del Sistema obligatorio de garantía de la calidad.  
 
       .col-md-4
         figure
@@ -1025,7 +1030,7 @@
             | Instituto Nacional de Salud. 
           li 
             i.lista-ul__vineta
-            | Instituto nacional de vigilancia de medicamentos y alimentos.
+            | Instituto Nacional de Vigilancia de Medicamentos y Alimentos.
           li 
             i.lista-ul__vineta
             | Direcciones territoriales de salud.
@@ -1120,7 +1125,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-41.png')})`}"
       )
       .bloque-texto-g__texto.p-5
-        p.mb-0 En el material complementario, podrá acceder al <strong>Manual de habilitación de REDES integrales de prestadores de servicios de salud para las entidades departamentales y distritales de salud.</strong> Este documento sirve de apoyo para realizar el proceso de habilitación de las Redes integrales de prestadores de servicios de salud - RIPSS por cada Entidad promotora de salud - EPS autorizada a operar en el departamento o distrito, en cumplimiento de lo previsto en la Resolución 1441 de 2016,
+        p.mb-0 En el material complementario, podrá acceder al <strong>Manual de habilitación de REDES integrales de prestadores de servicios de salud para las entidades departamentales y distritales de salud.</strong> Este documento sirve de apoyo para realizar el proceso de habilitación de las Redes integrales de prestadores de servicios de salud - RIPSS por cada Entidad promotora de salud - EPS autorizada a operar en el departamento o distrito, en cumplimiento de lo previsto en la Resolución 1441 de 2016.
 
 
 
@@ -1157,7 +1162,7 @@ export default {
         titulo:
           'Entidades territoriales y la Superintendencia Nacional de Salud',
         texto:
-          'Las entidades territoriales del orden departamental, distrital y municipal corresponden a las personas jurídicas, de derecho público, que componen la división político-administrativa del Estado, gozando de autonomía en la gestión de sus intereses. <br><br> Mientas que la Superintendencia Nacional de Salud realiza la inspección, la vigilancia y el control del cumplimiento de las normas constitucionales y legales que reglamentan el Sistema general de Seguridad Social en Salud, incluyendo las normas técnicas, científicas, administrativas y financieras del sector salud.',
+          'Las entidades territoriales del orden departamental, distrital y municipal corresponden a las personas jurídicas, de derecho público, que componen la división político-administrativa del Estado, gozando de autonomía en la gestión de sus intereses. <br><br> Mientas que la Superintendencia Nacional de Salud realiza la inspección, la vigilancia y el control del cumplimiento de las normas constitucionales y legales que reglamentan el Sistema General de Seguridad Social en Salud, incluyendo las normas técnicas, científicas, administrativas y financieras del sector salud.',
         imagen: require('@/assets/curso/temas/tema1/img-4.png'),
       },
     ],

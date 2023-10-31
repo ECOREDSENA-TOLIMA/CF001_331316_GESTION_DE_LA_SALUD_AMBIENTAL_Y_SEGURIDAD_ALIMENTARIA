@@ -81,43 +81,44 @@
 
     p.mb-5 Como este sistema une y articula diversos procesos y procedimientos debe cumplir con los atributos de calidad específicos que se describen a continuación: 
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/decorador-5.svg' alt='AvatarTop')
-        p <strong>Accesibilidad:</strong> se refiere a la posibilidad que tiene el usuario para utilizar los servicios de salud. 
+    .row.justify-content-center.mt-5
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta.color-primario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/decorador-5.svg' alt='AvatarTop')
+          p <strong>Accesibilidad:</strong> se refiere a la posibilidad que tiene el usuario para utilizar los servicios de salud. 
 
-      .tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/decorador-6.svg' alt='AvatarTop')
-        p <strong>Oportunidad:</strong> posibilidad que tiene el usuario de tener los servicios que necesita, sin que se presenten eventos que retrasen o pongan en riesgo su vida o salud.  
+        .tarjeta.color-primario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/decorador-6.svg' alt='AvatarTop')
+          p <strong>Oportunidad:</strong> posibilidad que tiene el usuario de tener los servicios que necesita, sin que se presenten eventos que retrasen o pongan en riesgo su vida o salud.  
 
-      .tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/decorador-7.svg' alt='AvatarTop')
-        p <strong>Seguridad:</strong> son todos aquellos elementos estructurales, procesos, instrumentos y metodologías que ayudan a minimizar el riesgo de sufrir eventos adversos o eventos no esperados durante el proceso de atención.
+        .tarjeta.color-primario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/decorador-7.svg' alt='AvatarTop')
+          p <strong>Seguridad:</strong> son todos aquellos elementos estructurales, procesos, instrumentos y metodologías que ayudan a minimizar el riesgo de sufrir eventos adversos o eventos no esperados durante el proceso de atención.
 
-      .tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/decorador-8.svg' alt='AvatarTop')
-        p <strong>Pertinencia:</strong> es la garantía que los usuarios puedan recibir los servicios que requieren. 
+        .tarjeta.color-primario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/decorador-8.svg' alt='AvatarTop')
+          p <strong>Pertinencia:</strong> es la garantía que los usuarios puedan recibir los servicios que requieren. 
 
-      .tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/decorador-9.svg' alt='AvatarTop')
-        p <strong>Continuidad:</strong> es la posibilidad que tienen los usuarios para recibir las intervenciones que requieren, teniendo en cuenta una secuencia lógica y racional de las actividades en salud, basándose en el conocimiento de tipo científico y sin interrupciones innecesarias.
+        .tarjeta.color-primario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/decorador-9.svg' alt='AvatarTop')
+          p <strong>Continuidad:</strong> es la posibilidad que tienen los usuarios para recibir las intervenciones que requieren, teniendo en cuenta una secuencia lógica y racional de las actividades en salud, basándose en el conocimiento de tipo científico y sin interrupciones innecesarias.
 
-      .tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/decorador-10.svg' alt='AvatarTop')
-        p <strong>Satisfacción del usuario:</strong> se refiere a la percepción del servicio por parte del usuario, teniendo en cuenta su nivel de expectativa, las necesidades y el resultado obtenido en todo el proceso de atención.
-      
+        .tarjeta.color-primario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/decorador-10.svg' alt='AvatarTop')
+          p <strong>Satisfacción del usuario:</strong> se refiere a la percepción del servicio por parte del usuario, teniendo en cuenta su nivel de expectativa, las necesidades y el resultado obtenido en todo el proceso de atención.
+        
     p.mb-5 Para garantizar el correcto funcionamiento del sistema obligatorio de garantía de calidad en salud se cuenta con personas que ayudan desde la parte técnica, operativa y de seguimiento para que las actividades de atención en salud puedan realizarse en función del cumplimiento normativo. En la siguiente figura puede observarse los actores responsables del seguimiento y ejecución de las acciones de calidad en salud. 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -126,7 +127,7 @@
           p.titulo.pb-0.mb-0 #[b Figura 8.] <em>Responsables del Sistema Obligatorio de Garantía de Calidad en salud - SOGC</em>
         figure
           img(src='@/assets/curso/temas/tema2/img-3-1.svg', alt='La figura 8. describe los responsables del sistema obligatorio de garantía de calidad en salud- SOGCS')
-          figcaption Nota. Tomada del Decreto 780 de 2016. Ministerio de Salud y Protección Social.  https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf 
+          figcaption Nota. Tomada del Decreto 780 de 2016. Ministerio de Salud y Protección Social.  <a href="https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf">Decreto</a>
 
     .row.mt-5.mb-2
       .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
@@ -134,7 +135,7 @@
           p.titulo.pb-0.mb-0 #[b Figura 8.] <em>Responsables del Sistema Obligatorio de Garantía de Calidad en salud - SOGC</em>
         figure
           img(src='@/assets/curso/temas/tema2/img-3-2.svg', alt='La figura 8. describe los responsables del sistema obligatorio de garantía de calidad en salud- SOGCS') 
-          figcaption Nota. Tomada del Decreto 780 de 2016. Ministerio de Salud y Protección Social.  https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf 
+          figcaption Nota. Tomada del Decreto 780 de 2016. Ministerio de Salud y Protección Social.  <a href="https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf">Decreto</a>
 
     ul.lista-ul.mb-3
       li 
@@ -273,9 +274,9 @@
     ul.lista-ul.mb-3
       li 
         i.lista-ul__vineta
-        | <strong>El Decreto 903 de 2014</strong> actualiza los componentes del sistema único de acreditación, que se encuentra reglamentado desde el año 2002 bajo la Resolución 1774, luego actualizado mediante la Resolución 1445 del año 2006 y la Resolución 123 de 2012. 
+        | <strong>El Decreto 903 de 2014,</strong> actualiza los componentes del sistema único de acreditación, que se encuentra reglamentado desde el año 2002 bajo la Resolución 1774, luego actualizado mediante la Resolución 1445 del año 2006 y la Resolución 123 de 2012. 
  
-    p.mb-5 Mediante el Decreto 903 de 2014 MinSalud delegó al ICONTEC el proceso de acreditación en Colombia, por ello, es necesario conocer que la entidad a cargo de los procesos de acreditación a su vez debe estar certificada por la International <strong>Society for Quality in Healthcare - ISQUA</strong> y presentar experiencia de certificación de 5 años continuos.  En el proceso de acreditación es fundamental dirigir las acciones hacia los siguientes ejes.
+    p.mb-5 Mediante el Decreto 903 de 2014 MinSalud delegó al ICONTEC el proceso de acreditación en Colombia, por ello, es necesario conocer que la entidad a cargo de los procesos de acreditación a su vez debe estar certificada por la International <strong><em>Society for Quality in Healthcare - ISQUA</em></strong> y presentar experiencia de certificación de 5 años continuos.  En el proceso de acreditación es fundamental dirigir las acciones hacia los siguientes ejes.
 
     SlyderB.mb-5(:datos="datosSlyder")
 
@@ -302,7 +303,7 @@
               i.lista-ul__vineta
               | El enfoque de gestión del riesgo. 
 
-    p El manual de estándares del sistema único de acreditación en salud es una herramienta dispuesta en el proceso de acreditación; sin embargo, en caso que la entidad que asume el proceso tenga sus propios manuales acreditados por la <strong>International Society for Quality in Healthcare - ISQUA</strong> únicamente podrán ser utilizados y aplicados con la debida autorización por parte del Ministerio de Salud y Protección Social. 
+    p El manual de estándares del sistema único de acreditación en salud es una herramienta dispuesta en el proceso de acreditación; sin embargo, en caso que la entidad que asume el proceso tenga sus propios manuales acreditados por la <strong><em>International Society for Quality in Healthcare - ISQUA</em></strong> únicamente podrán ser utilizados y aplicados con la debida autorización por parte del Ministerio de Salud y Protección Social. 
     p.mb-5 Para cumplir con el ciclo global de acreditación se deben seguir los procesos de: 
 
     .row.mb-3(data-aos="fade-right")
@@ -420,7 +421,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-13.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/img-30.svg' alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p Profesionales que ejerzan sus actividades de manera independiente.  
@@ -428,7 +429,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-14.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/img-31.svg' alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p Instituciones con objeto social diferente a la prestación de servicios de salud, pero que, en el ejercicio de sus funciones, deban realizar la atención en salud. 
@@ -438,35 +439,35 @@
     p.mb-5 Acorde con lo establecido en la Resolución 3100 de 2019 se definen unos pasos para realizar la habilitación, los cuales se describen a continuación.
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img-15.svg' alt='AvatarTop')
         h3 Autoevaluación
         p Realizar la autoevaluación de las condiciones descritas en los estándares. 
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img-16.svg' alt='AvatarTop')
         h3 Formulario de inscripción
         p Ingresar el página web de la Secretaría de Salud y diligenciar el formulario de inscripción en el REPS.
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img-17.svg' alt='AvatarTop')
         h3 Declaración de autoevaluación
         p Diligenciar la declaración de la autoevaluación de los servicios que se van habilitar e imprimir el formulario de inscripción. 
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
         h3 Radicación del formulario de inscripción
         p Radicar en la secretaría de salud distrital o departamental (o en la entidad asignada para esta actividad) el formulario de inscripción y la declaración de autoevaluación.  
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img-19.svg' alt='AvatarTop')
@@ -605,12 +606,12 @@
             //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             LineaTiempoD.color-acento-botones
-              p.text-small(numero="1" titulo="Atención intramural") cuenta con infraestructura física fija para la atención.
+              p.text-small(numero="1" titulo="Atención intramural") Cuenta con infraestructura física fija para la atención.
               
-              p.text-small(numero="2" titulo="Atención extramural") cuenta con espacios o infraestructura adaptada. Dentro de esta atención se cuenta con unidad móvil (terrestre, marino o fluvial), atención en modalidad domiciliaria y jornadas de salud.
+              p.text-small(numero="2" titulo="Atención extramural") Cuenta con espacios o infraestructura adaptada. Dentro de esta atención se cuenta con unidad móvil (terrestre, marino o fluvial), atención en modalidad domiciliaria y jornadas de salud.
 
-              p.text-small(numero="3" titulo="Telemedicina") prestación del servicio a distancia, mediante TICS. Hay dos opciones. Telemedicina interactiva (video llamada en tiempo real)  Telemedicina no interactiva (comunicación asincrónica entre el profesional de la salud y el usuario. <br><br> Para dar cumplimiento y calidad al proceso, se debe contar con telexperticia y telemonitoreo. Este tipo de atención se caracteriza por contar con un prestador denominado emisor y otro prestador denominado de referencia.
-      
+              p.text-small(numero="3" titulo="Telemedicina") Prestación del servicio a distancia, mediante TICS. Hay dos opciones. Telemedicina interactiva (video llamada en tiempo real)  Telemedicina no interactiva (comunicación asincrónica entre el profesional de la salud y el usuario. <br><br> Para dar cumplimiento y calidad al proceso, se debe contar con telexperticia y telemonitoreo. Este tipo de atención se caracteriza por contar con un prestador denominado emisor y otro prestador denominado de referencia.
+              
       .col-md-5
         figure
           img(src='@/assets/curso/temas/tema2/img-20.png', alt='Imagen decorativa')
@@ -628,7 +629,7 @@
         ul.lista-ul.mb-3
           li 
             i.lista-ul__vineta
-            | ndicadores de efectividad. 
+            | Indicadores de efectividad. 
           li 
             i.lista-ul__vineta
             | Indicadores de seguridad. 
@@ -638,7 +639,7 @@
           li 
             i.lista-ul__vineta
             | Indicadores de gestión del riesgo. 
-        p Para que exista claridad se debe comprender que cada grupo de indicadores está dirigido a las entidades administradoras de planes de beneficios departamentales, a las entidades distritales y municipales de salud, al Instituto Nacional de Salud, al organismo técnico de administración de la cuenta de alto costo, a los prestadoras de servicios de salud y a los servicios de transporte especial de pacientes, siendo necesario  para estos dos últimos, el reporte de registro de control, el registro de detalle de oportunidad en citas, el registro de detalle de satisfacción global, el registro de detalle de la programación de procedimientos quirúrgicos realizados en sala de quirófano, el registro de detalle de evento adverso y registro de detalle de urgencias - triage II.  A cada actor del sistema le corresponden los indicadores de efectividad, seguridad, experiencia de la atención en salud y de gestión del riesgo. 
+        p Para que exista claridad se debe comprender que cada grupo de indicadores está dirigido a las entidades administradoras de planes de beneficios departamentales, a las entidades distritales y municipales de salud, al Instituto Nacional de Salud, al organismo técnico de administración de la cuenta de alto costo, a los prestadoras de servicios de salud y a los servicios de transporte especial de pacientes, siendo necesario  para estos dos últimos, el reporte de registro de control, el registro de detalle de oportunidad en citas, el registro de detalle de satisfacción global, el registro de detalle de la programación de procedimientos quirúrgicos realizados en sala de quirófano, el registro de detalle de evento adverso y registro de detalle de urgencias - <em>triage II</em>.  A cada actor del sistema le corresponden los indicadores de efectividad, seguridad, experiencia de la atención en salud y de gestión del riesgo. 
 
     p Para el envío de indicadores se hace necesario que los reportes sean manejados en un archivo tipo plano. 
     p.mb-5 Hay otras herramientas de monitoreo en torno a las atenciones en salud, tales como el Registro Individual de Prestación de Servicios de Salud - RIPS. Este será revisado en detalle en el siguiente componente; sin embargo, es importante tener presente que consiste en el conjunto de datos que identifica las actividades de salud que se les realiza a las personas y que hacen parte integral de la factura de venta de los servicios de salud,  sirve para que los prestadores de servicios de salud puedan documentar el valor cobrado por las actividades de salud prestadas a las personas ante la entidad pagadora de los servicios de salud, informar sobre actividades de salud prestadas en las modalidades de contratación por paquete, por capacitación o servicios integrales y conocer las causas que generan la demanda de servicios de salud. 
