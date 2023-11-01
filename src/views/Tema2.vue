@@ -31,7 +31,7 @@
     .row.mb-5
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar1
-          img(src='@/assets/curso/temas/tema2/decorador-1.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
+          img(src='@/assets/curso/temas/tema2/decorador-1.png' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta1(style="background-color:#EAF2E1; width:100%")
             .text.p-4
               h3.text-center Cumplimiento de tipo obligatorio
@@ -39,7 +39,7 @@
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar1
-          img(src='@/assets/curso/temas/tema2/decorador-2.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
+          img(src='@/assets/curso/temas/tema2/decorador-2.png' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta1(style="background-color:#EAF2E1; width:100%")
             .p-4
               h3.text-center Excelencia de tipo voluntario
@@ -47,7 +47,7 @@
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar1
-          img(src='@/assets/curso/temas/tema2/decorador-3.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
+          img(src='@/assets/curso/temas/tema2/decorador-3.png' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta1(style="background-color:#EAF2E1; width:100%")
             .p-4
               h3.text-center Sistema de información en salud
@@ -55,7 +55,7 @@
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar1
-          img(src='@/assets/curso/temas/tema2/decorador-4.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
+          img(src='@/assets/curso/temas/tema2/decorador-4.png' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta1(style="background-color:#EAF2E1; width:100%")
             .p-4
               h3.text-center Acciones de auditoría continua
@@ -86,37 +86,37 @@
         .tarjeta.color-primario.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/temas/tema2/decorador-5.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/decorador-5.png' alt='AvatarTop')
           p <strong>Accesibilidad:</strong> se refiere a la posibilidad que tiene el usuario para utilizar los servicios de salud. 
 
         .tarjeta.color-primario.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/temas/tema2/decorador-6.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/decorador-6.png' alt='AvatarTop')
           p <strong>Oportunidad:</strong> posibilidad que tiene el usuario de tener los servicios que necesita, sin que se presenten eventos que retrasen o pongan en riesgo su vida o salud.  
 
         .tarjeta.color-primario.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/temas/tema2/decorador-7.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/decorador-7.png' alt='AvatarTop')
           p <strong>Seguridad:</strong> son todos aquellos elementos estructurales, procesos, instrumentos y metodologías que ayudan a minimizar el riesgo de sufrir eventos adversos o eventos no esperados durante el proceso de atención.
 
         .tarjeta.color-primario.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/temas/tema2/decorador-8.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/decorador-8.png' alt='AvatarTop')
           p <strong>Pertinencia:</strong> es la garantía que los usuarios puedan recibir los servicios que requieren. 
 
         .tarjeta.color-primario.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/temas/tema2/decorador-9.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/decorador-9.png' alt='AvatarTop')
           p <strong>Continuidad:</strong> es la posibilidad que tienen los usuarios para recibir las intervenciones que requieren, teniendo en cuenta una secuencia lógica y racional de las actividades en salud, basándose en el conocimiento de tipo científico y sin interrupciones innecesarias.
 
         .tarjeta.color-primario.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/temas/tema2/decorador-10.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/decorador-10.png' alt='AvatarTop')
           p <strong>Satisfacción del usuario:</strong> se refiere a la percepción del servicio por parte del usuario, teniendo en cuenta su nivel de expectativa, las necesidades y el resultado obtenido en todo el proceso de atención.
         
     p.mb-5 Para garantizar el correcto funcionamiento del sistema obligatorio de garantía de calidad en salud se cuenta con personas que ayudan desde la parte técnica, operativa y de seguimiento para que las actividades de atención en salud puedan realizarse en función del cumplimiento normativo. En la siguiente figura puede observarse los actores responsables del seguimiento y ejecución de las acciones de calidad en salud. 
@@ -190,41 +190,39 @@
 
     p.mb-5 El proceso de autorización de funcionamiento está a cargo de la Superintendencia Nacional de Salud, y dentro de las actividades que se desarrollan en este proceso se pueden describir las siguientes: 
 
-    Separador 
-
     .row.justify-content-center.align-items-center.mb-4
       .col-md-11.col-12(data-aos="fade-down")
         .tarjeta-avatar-b.mb-4
           .color-secundario.pasos-custom.px-5
             .pasos-a__circle
-              img(src='@/assets/curso/temas/tema2/decorador-11.svg')
+              img(src='@/assets/curso/temas/tema2/decorador-11.png')
           .tarjeta.tarjeta--custom
             .p-4
-              p.mb-0 El uso de la desviación estándar en estos casos proporciona una estimación de la incertidumbre de los rendimientos futuros de una inversión determinada.
+              p.mb-0 Asignación de un código para su identificación. 
       .col-md-11.col-12(data-aos="fade-down")
         .tarjeta-avatar-b.mb-4
           .color-secundario.pasos-custom.px-5
             .pasos-a__circle
-              img(src='@/assets/curso/temas/tema2/decorador-12.svg')
+              img(src='@/assets/curso/temas/tema2/decorador-12.png')
           .tarjeta.tarjeta--custom
             .p-4
-              p.mb-0 Por ejemplo, al comparar la acción A que tiene un rendimiento promedio del 7% con una desviación estándar del 10% contra la acción B, que tiene el mismo rendimiento promedio, pero una desviación estándar del 50%, la primera acción sería claramente la opción más segura. Dado que la desviación estándar de la acción B es significativamente mayor, para el mismo rendimiento exacto.
+              p.mb-0 Definición de los regímenes en los que podrá realizar sus acciones operativas.
       .col-md-11.col-12(data-aos="fade-down")
         .tarjeta-avatar-b.mb-4
           .color-secundario.pasos-custom.px-5
             .pasos-a__circle
-              img(src='@/assets/curso/temas/tema2/decorador-13.svg')
+              img(src='@/assets/curso/temas/tema2/decorador-13.png')
           .tarjeta.tarjeta--custom
             .p-4
-              p.mb-0 Eso no quiere decir que la acción A sea definitivamente una mejor opción de inversión en este escenario, ya que la desviación estándar puede sesgar la media en cualquier dirección.
+              p.mb-0 Definición del ámbito territorial de operación de la entidad. 
       .col-md-11.col-12(data-aos="fade-down")
         .tarjeta-avatar-b.mb-4
           .color-secundario.pasos-custom.px-5
             .pasos-a__circle
-              img(src='@/assets/curso/temas/tema2/decorador-14.svg')
+              img(src='@/assets/curso/temas/tema2/decorador-14.png')
           .tarjeta.tarjeta--custom
             .p-4
-              p.mb-0 Estos son solo algunos ejemplos de cómo se puede usar la desviación estándar, pero existen muchos más. Generalmente, calcular la desviación estándar es valioso en cualquier momento que se desee saber qué tan lejos de la media puede estar un valor típico de una distribución.
+              p.mb-0 Autorización para afiliar y recibir por cada afiliado la unidad de pago por capitación y, los demás recursos financieros del sector salud que ayudan a cumplir las funciones asignadas en la normatividad vigente.
 
     p.mb-5 A manera de resumen, en relación con las condiciones de habilitación de las entidades prestadoras de salud puede consultar la siguiente tabla.
 
@@ -278,7 +276,8 @@
  
     p.mb-5 Mediante el Decreto 903 de 2014 MinSalud delegó al ICONTEC el proceso de acreditación en Colombia, por ello, es necesario conocer que la entidad a cargo de los procesos de acreditación a su vez debe estar certificada por la International <strong><em>Society for Quality in Healthcare - ISQUA</em></strong> y presentar experiencia de certificación de 5 años continuos.  En el proceso de acreditación es fundamental dirigir las acciones hacia los siguientes ejes.
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    .tarjeta.tarjeta--azul2.p-4.mb-5(data-aos="fade-down-right")
+      SlyderB.mb-5(:datos="datosSlyder")
 
     p.mb-5 La herramienta más importante para operativizar un programa de acreditación es realizar actividades de forma sistemática, garantizando un proceso continuo de transformación cultural de la de la organización; dicha transformación es promovida desde el direccionamiento estratégico y las acciones coordinadas del talento humano. Además, la acreditación cuenta con unos principios que garantizan la correcta ejecución de sus actividades en busca del alcance de estándares superiores; estos principios se pueden describir como confidencialidad, gradualidad y eficiencia.
 
@@ -348,7 +347,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/decorador-15.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/decorador-15.png', alt='Texto que describa la imagen')
           
         h2.text-center Monitorear
         p Consiste en realizar el respectivo seguimiento a la calidad de los servicios, con el fin de que todos los actores involucrados realicen la respectiva evaluación y ajuste a los elementos que componen el SOGCS (Sistema obligatorio de garantía de la calidad en salud).   
@@ -356,11 +355,11 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-secundario.p-5(style="background-color:#E6EBFB")
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/decorador-16.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/decorador-16.png', alt='Texto que describa la imagen')
           
         h2.text-center Orientar
         p Refiere a la entrega de información que incluye la selección de la EAPB y/o la institución prestadora de servicios por parte de los usuarios y demás, teniendo en cuenta la información de calidad reportada. 
@@ -372,7 +371,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/decorador-17.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/decorador-17.png', alt='Texto que describa la imagen')
           
         h2.text-center Referenciar
         p Esta actividad incluye el referenciación de tipo competitivo sobre los aspectos de calidad de los servicios entre las EAPB y las instituciones prestadoras de servicios. 
@@ -380,15 +379,14 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-secundario.p-5(style="background-color:#E6EBFB")
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/decorador-18.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/decorador-18.png', alt='Texto que describa la imagen')
           
         h2.text-center Estimular
         p Sugiere incentivar la gestión de la calidad basada en hechos y datos.
-
 
     Separador
 
@@ -405,7 +403,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-13.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/img-13.png' alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p Instituciones prestadoras de servicios de salud - IPS. 
@@ -413,7 +411,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-14.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/img-14.png' alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p Entidades que asuman la actividad de transporte especial de pacientes. 
@@ -421,7 +419,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-30.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/img-30.png' alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p Profesionales que ejerzan sus actividades de manera independiente.  
@@ -429,7 +427,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-31.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/img-31.png' alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p Instituciones con objeto social diferente a la prestación de servicios de salud, pero que, en el ejercicio de sus funciones, deban realizar la atención en salud. 
@@ -442,35 +440,35 @@
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img-15.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema2/img-15.png' alt='AvatarTop')
         h3 Autoevaluación
         p Realizar la autoevaluación de las condiciones descritas en los estándares. 
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img-16.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema2/img-16.png' alt='AvatarTop')
         h3 Formulario de inscripción
         p Ingresar el página web de la Secretaría de Salud y diligenciar el formulario de inscripción en el REPS.
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img-17.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema2/img-17.png' alt='AvatarTop')
         h3 Declaración de autoevaluación
         p Diligenciar la declaración de la autoevaluación de los servicios que se van habilitar e imprimir el formulario de inscripción. 
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img-18.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema2/img-18.png' alt='AvatarTop')
         h3 Radicación del formulario de inscripción
         p Radicar en la secretaría de salud distrital o departamental (o en la entidad asignada para esta actividad) el formulario de inscripción y la declaración de autoevaluación.  
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img-19.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema2/img-19.png' alt='AvatarTop')
         h3 Visita de verificación
         p Recibir la visita de verificación por parte de la secretaría de salud distrital o departamental (o en la entidad asignada para esta actividad).  
 
@@ -651,7 +649,8 @@
 
     p.mb-5 En el sistema obligatorio de garantía de la calidad se hace indispensable contar con los suficientes elementos en el marco de la política de seguridad del paciente, la cual tiene como objetivo prevenir la ocurrencia de hechos que afecten la seguridad de los usuarios que acceden al servicio de salud. Para garantizar un adecuado desarrollo de la política de seguridad del paciente es necesario garantizar los siguientes elementos. 
 
-    SlyderB.mb-5(:datos="datosSlyder1")
+    .tarjeta.tarjeta--azul2.p-4.mb-5(data-aos="fade-down-right")
+      SlyderB.mb-5(:datos="datosSlyder1")
 
     .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 

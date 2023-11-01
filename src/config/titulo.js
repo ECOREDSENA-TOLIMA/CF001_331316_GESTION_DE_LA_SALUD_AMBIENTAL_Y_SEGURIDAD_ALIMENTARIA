@@ -1,2 +1,2 @@
 module.exports =
-  'Fundamentos y normatividad vigente en prestación de servicios de salud'
+  'Fundamentos y normatividad vigente en la prestación de servicios de salud'
