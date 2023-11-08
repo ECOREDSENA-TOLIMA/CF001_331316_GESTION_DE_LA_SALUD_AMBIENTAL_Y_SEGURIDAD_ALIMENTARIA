@@ -9,7 +9,7 @@
 
     p.mb-5 El SGSSS tiene como objetivo regular el servicio público esencial de salud y crear condiciones de acceso para toda la población residente del país en todos los niveles de atención. Está integrado por: 
 
-    .tarjeta.tarjeta--azul2.p-4.mb-5(data-aos="fade-down-right")
+    .BGIMG02.p-4
       SlyderB.mb-5(:datos="datosSlyder")
 
     Separador 
@@ -23,21 +23,21 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/decorador-1.png', alt='Texto que describa la imagen')
           
-        h2.text-center Artículo 48
+        h3.text-center Artículo 48
         p Deja claridad que la atención la podrán realizar entidades públicas o privadas y en ningún caso se podrán utilizar los recursos disponibles para la seguridad social en otras actividades que difieran de esta. 
         p Hacia el año 2005 se incluyeron otros elementos relacionados con los requisitos y los beneficios de tipo pensional. La actualización corresponde al acto legislativo 01.
 
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/decorador-2.png', alt='Texto que describa la imagen')
           
-        h2.text-center Artículo 49
+        h3.text-center Artículo 49
         p En este Artículo se pone en manifiesto que la salud y el saneamiento ambiental son servicios de tipo público y que están a cargo del Estado. De igual manera hace énfasis en que todas las personas tienen derecho a acceder a los servicios de promoción, protección y de recuperación de la salud. Este artículo se actualizó mediante el acto legislativo 02 del año 2009.
       
     p Si bien la Constitución atendió la necesidad de crear un Sistema de salud obligatorio que se ha venido reglamentando desde el año 1993 hasta la fecha, aún persisten dudas en su aplicación e implementación de disposiciones, tal es el caso del Artículo 48, el cual fue demandado bajo el argumento que se vulneró lo relacionado con la libertad económica, la integración vertical, la posición dominante, la libertad de empresa en el ámbito de la seguridad social, los efectos generales de la Ley 1122 de 2007 y el usuario.
@@ -66,38 +66,39 @@
               tr
                 td(style="background-color:#F6F6F6") La ley definirá los medios para que los recursos destinados a pensiones mantengan su poder adquisitivo constante.
 
-    p.mb-5 Acorde con los lineamientos dispuestos en la Constitución Nacional y teniendo en cuenta los diversos momentos de la seguridad social se puede resumir las diversas etapas por las cuales se ha pasado hasta el presente:
+    p.mb-0 Acorde con los lineamientos dispuestos en la Constitución Nacional y teniendo en cuenta los diversos momentos de la seguridad social se puede resumir las diversas etapas por las cuales se ha pasado hasta el presente:
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/decorador-3.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          ul.lista-ul.mb-3
-            li 
-              i.lista-ul__vineta
-              | Modelo higienista desarrollado entre 1886 y 1950.
-            li 
-              i.lista-ul__vineta
-              | Sistema nacional de salud que tuvo vigencia desde el año 1970 hasta 1989. 
-            li  
-              i.lista-ul__vineta
-              | Sistema de salud establecido entre 1990 y 1992.
-            li  
-              i.lista-ul__vineta
-              | Sistema de seguridad social en salud que inició en el año 1993 hasta la actualidad.
+    .row.justify-content-center.align-items-center.mb-4
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema1/decorador-3.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | Modelo higienista desarrollado entre 1886 y 1950.
+                li 
+                  i.lista-ul__vineta
+                  | Sistema nacional de salud que tuvo vigencia desde el año 1970 hasta 1989. 
+                li  
+                  i.lista-ul__vineta
+                  | Sistema de salud establecido entre 1990 y 1992.
+                li  
+                  i.lista-ul__vineta
+                  | Sistema de seguridad social en salud que inició en el año 1993 hasta la actualidad.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10(data-aos="fade-down-right")
+        p A continuación, se describe las características principales de cada una de estas etapas, además de indicar la normatividad que le da base en sus funciones:
 
-    p.mb-5 A continuación, se describe las características principales de cada una de estas etapas, además de indicar la normatividad que le da base en sus funciones:
-
-    .tarjeta.tarjeta--gris1.p-4.mb-5
-      //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- text-small se usa para que los títulos sean mas pequeños
-      LineaTiempoC.color-acento-botones(text-small)
+    .BGIMG01.p-4
+      PasosB.color-acento-contenido
         .row(titulo="(1886 - 1950)")
           .col-md-6.mb-4.mb-md-0.col-ipad
-            h4 Modelo higienista <br> (1886 - 1950)
+            h3 Modelo higienista <br> (1886 - 1950)
             p A partir de 1947 la atención de aspectos de carácter sanitario fue realizada así:
             ul.lista-ul.mb-3
               li 
@@ -113,54 +114,51 @@
             p En el año 1945 se crean las Cajas de previsión social - CAJANAL.
             p En el año 1946 se crea el Instituto Colombiano de Seguros Sociales (ICSS) o también llamado Instituto de Seguros Sociales.
 
-          .row.justify-content-center.align-items-center
-            .col-10.col-md-10.col-lg-8 
-              figure
-                img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
-
+          .col-md-6.col-ipad
+            figure
+              img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
 
         .row(titulo="(1970 - 1989)")
           .col-md-6.mb-4.mb-md-0.col-ipad
-            h4 Sistema Nacional de Salud - SNS<br> (1970 - 1989)
+            h3 Sistema Nacional de Salud - SNS<br> (1970 - 1989)
             p Se acudió a la teoría general de sistemas frente a la diversidad de instituciones prestadoras de servicios.
             p El servicio de salud se convierte en parte integral de la planeación socioeconómica del país.
             p Se adopta el Plan decenal de salud de Las Américas OPS/OMS, 1973, el cual concreta el Sistema Nacional de Salud – SNS
 
-          .row.justify-content-center.align-items-center
-            .col-10.col-md-10.col-lg-8 
-              figure
-                img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
-
+          .col-md-6.col-ipad
+            figure
+              img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
 
         .row(titulo="(1990 - 1992)")
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            h4 Sistema de salud <br> (1990 - 1992)
-            p Se fundamenta en la Ley 10 de 1990, que dispone entre otros los siguientes criterios:
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | El derecho del servicio público de salud. 
-              li 
-                i.lista-ul__vineta
-                | La prestación de los servicios de salud en todos los niveles a cargo de la nación. 
-            p La administración de la salud se debe desarrollar en asocio con las entidades territoriales, de sus entes descentralizados y de las personas privadas autorizadas para el efecto.
-            p El Estado intervendrá en el servicio público de salud.
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-6.col-ipad           
+              h3 Sistema de salud <br> (1990 - 1992)
+              p Se fundamenta en la Ley 10 de 1990, que dispone entre otros los siguientes criterios:
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | El derecho del servicio público de salud. 
+                li 
+                  i.lista-ul__vineta
+                  | La prestación de los servicios de salud en todos los niveles a cargo de la nación. 
 
-          .row.justify-content-center.align-items-center
-            .col-10.col-md-10.col-lg-8 
+              p La administración de la salud se debe desarrollar en asocio con las entidades territoriales, de sus entes descentralizados y de las personas privadas autorizadas para el efecto.
+              p El Estado intervendrá en el servicio público de salud.
+
+            .col-lg-6.col-ipad
               figure
-                img(src='@/assets/curso/temas/tema1/img-7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img-7.png', alt='')
 
         .row(titulo="(1993 a la fecha)")
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            h4 Sistema general de seguridad social en salud <br> (1993 a la fecha)
-            p La reforma de la seguridad social tiene lugar en el contexto de los procesos de apertura y globalización, de la necesidad de corregir defectos en eficiencia, equidad, cobertura, integralidad y calidad, y del desarrollo legislativo de la nueva Constitución de 1991, la cual indica de manera taxativa que “la seguridad social es un servicio público” y “se prestará bajo la coordinación y control del Estado”.
-            p La Ley 100/1993 establece por primera vez en el país un sistema de seguridad social en salud con vocación explícita de cobertura universal, bajo los principios de equidad, solidaridad, eficiencia, calidad y participación social. 
-
-          .row.justify-content-center.align-items-center
-            .col-10.col-md-10.col-lg-8 
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-6.col-ipad              
+              h3 Sistema general de seguridad social en salud <br> (1993 a la fecha)
+              p La reforma de la seguridad social tiene lugar en el contexto de los procesos de apertura y globalización, de la necesidad de corregir defectos en eficiencia, equidad, cobertura, integralidad y calidad, y del desarrollo legislativo de la nueva Constitución de 1991, la cual indica de manera taxativa que “la seguridad social es un servicio público” y “se prestará bajo la coordinación y control del Estado”.
+              p La Ley 100/1993 establece por primera vez en el país un sistema de seguridad social en salud con vocación explícita de cobertura universal, bajo los principios de equidad, solidaridad, eficiencia, calidad y participación social. 
+            
+            .col-lg-6.col-ipad  
               figure
-                img(src='@/assets/curso/temas/tema1/img-8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img-8.png', alt='')
 
     Separador 
     
@@ -176,7 +174,7 @@
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-9-1.svg', alt='La figura 1 describe las principales características entre la ley 100 de 1993 y la ley 1438 de 2011, ésta última promulgada con el fin de modificar la ley 100.')
 
-    .row.mt-5
+    .row.mt-5.mb-4
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Principios Sistema general de Seguridad Social en Salud - SGSSS</em>
@@ -185,91 +183,104 @@
 
     p.mb-5 Acorde con lo dispuesto en la Ley 100 de 1993 se generaron los diversos sistemas que componen el Sistema general de Seguridad Social en Salud – SGSSS.  A continuación, se hace una descripción de cada uno de estos.
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Sistema general de pensiones
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Sistema general de pensiones
 
     p.mb-5 Tiene como objetivo garantizar a la población productiva el amparo a futuro de una pensión al momento de ya no ser productivo, derivado de la vejez, invalidez o muerte.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-down-right")
-        .cajon.color-primario.p-4.mb-4
+      .col-10(data-aos="fade-down-right")
+        .cajon.color-primario.p-4
           p Igualmente, pretende ampliar de forma progresiva la cobertura a los segmentos de población no cubiertos por el sistema. Este sistema lo conforma el régimen solidario de prima media con prestación definida y el régimen de ahorro individual con solidaridad.
           p Los referidos regímenes buscan garantizar a sus afiliados y a sus beneficiarios cuando sea el caso las siguientes prestaciones económicas: pensión de vejez, pensión de invalidez, pensión de sobrevivientes, indemnización sustitutiva o devolución de saldos y auxilio funerario.
-
-    p.mb-5 A continuación, podrá consultar en detalle los regímenes asociados con el sistema general de pensiones:
-
-    ImagenInfografica.color-acento-botones.mb-5.desktop
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema1/img-10-1.svg', alt='Texto que describa la imagen')
-
-      .tarjeta.color-acento-botones.p-3(x="25%" y="18%" numero="+")
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Es solidario.
-          li 
-            i.lista-ul__vineta
-            | Fondo común de naturaleza pública.
-          li 
-            i.lista-ul__vineta
-            | El Estado es el garante del pago de los beneficios.
-          li 
-            i.lista-ul__vineta
-            | Los afiliados o sus beneficiarios obtienen la pensión por: vejez, invalidez, indemnización o sobrevivientes.
-
-      .tarjeta.color-acento-botones.p-3(x="50%" y="83%" numero="+")
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Consiste en un ahorro individual. 
-          li 
-            i.lista-ul__vineta
-            | Debe tener un capital acumulado para acceder a la pensión.
-          li 
-            i.lista-ul__vineta
-            | Es administrado por las sociedades administradoras de fondos de pensiones (AFP), y se basa en el ahorro proveniente de las cotizaciones y sus respectivos rendimientos financieros.
-
-      .tarjeta.color-acento-botones.p-3(x="75%" y="18%" numero="+")
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Normas especiales para acceder a la pensión, las cuales aplican para miembros de la policía, fuerzas militares, afiliados al fondo del magisterio y miembros no remunerados de las corporaciones públicas. 
-            
-    .row.mt-5
-      .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema1/img-10-2.svg', alt='Figura 6 Densidad de siembra de árboles En la figura se observa la distancia de 3 metros entre zurcos de arbustos, igualmente la distancia de 25 - 30 metros entre arboles grandes, en la parte izquierda las imágenes de los árboles casuarina cordia, cedrela, cenizaro, aguacate, cítricos, mango, gliricidia, erytrina, inga; formas de copa estrella o tipo sombrilla.') 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p A continuación, podrá consultar en detalle los regímenes asociados con el sistema general de pensiones:
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-12(data-aos="fade-right")
-        ul.lista-ul.mb-2
-          li.mb-0(style="color:#455B2D")
-            i.fas.fa-arrow-right-to-arc(style="color:#455B2D")
-            | <strong>Sistema general de riesgos profesionales</strong>
+      .col-10(data-aos="fade-down-right")
+        ImagenInfografica.color-acento-botones.mb-5.desktop
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img-10-1.svg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-botones.p-3(x="25%" y="18%" numero="+")
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Es solidario.
+              li 
+                i.lista-ul__vineta
+                | Fondo común de naturaleza pública.
+              li 
+                i.lista-ul__vineta
+                | El Estado es el garante del pago de los beneficios.
+              li 
+                i.lista-ul__vineta
+                | Los afiliados o sus beneficiarios obtienen la pensión por: vejez, invalidez, indemnización o sobrevivientes.
+
+          .tarjeta.color-acento-botones.p-3(x="50%" y="83%" numero="+")
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Consiste en un ahorro individual. 
+              li 
+                i.lista-ul__vineta
+                | Debe tener un capital acumulado para acceder a la pensión.
+              li 
+                i.lista-ul__vineta
+                | Es administrado por las sociedades administradoras de fondos de pensiones (AFP), y se basa en el ahorro proveniente de las cotizaciones y sus respectivos rendimientos financieros.
+
+          .tarjeta.color-acento-botones.p-3(x="75%" y="18%" numero="+")
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Normas especiales para acceder a la pensión, las cuales aplican para miembros de la policía, fuerzas militares, afiliados al fondo del magisterio y miembros no remunerados de las corporaciones públicas. 
+                
+        .row.mt-5.mb-3
+          .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
+            figure
+              img(src='@/assets/curso/temas/tema1/img-10-2.svg', alt='Texto que describa la imagen') 
+
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Sistema general de riesgos profesionales
 
     p Este consiste en un conjunto de procedimientos destinados a prevenir, proteger y atender a los trabajadores de los efectos causados por las enfermedades profesionales y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo que desarrollan, además de mantener la vigilancia para el estricto cumplimiento de la normatividad en salud ocupacional. 
-    p.mb-5 A partir de las diversas eventualidades que se puedan generar existen unas prestaciones económicas tales como: subsidio por incapacidad por accidente o enfermedad laboral, indemnización por pérdida de capacidad laboral, pensión de invalidez, sustitución pensional y auxilio funerario. Dentro de los principales objetivos del sistema general de riesgos profesionales se pueden describir: 
+    p.mb-3 A partir de las diversas eventualidades que se puedan generar existen unas prestaciones económicas tales como: subsidio por incapacidad por accidente o enfermedad laboral, indemnización por pérdida de capacidad laboral, pensión de invalidez, sustitución pensional y auxilio funerario. Dentro de los principales objetivos del sistema general de riesgos profesionales se pueden describir: 
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/decorador-4.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          ul.lista-ul.mb-3
-            li 
-              i.lista-ul__vineta
-              | Prevenir los accidentes de trabajo y las enfermedades laborales. 
-            li 
-              i.lista-ul__vineta
-              | Mitigar la severidad por accidente de trabajo o enfermedad laboral. 
-            li  
-              i.lista-ul__vineta
-              | Atender e indemnizar a los trabajadores o a sus familiares en caso de accidente de trabajo o enfermedad laboral.
-
-    p.mb-5 En este sistema existen tres actores principales, el trabajador, el empleador y la administradora de riesgos laborales, y cada uno de ellos tiene un rol específico como se observa a continuación. 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema1/decorador-4.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | Prevenir los accidentes de trabajo y las enfermedades laborales. 
+                li 
+                  i.lista-ul__vineta
+                  | Mitigar la severidad por accidente de trabajo o enfermedad laboral. 
+                li  
+                  i.lista-ul__vineta
+                  | Atender e indemnizar a los trabajadores o a sus familiares en caso de accidente de trabajo o enfermedad laboral.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 En este sistema existen tres actores principales, el trabajador, el empleador y la administradora de riesgos laborales, y cada uno de ellos tiene un rol específico como se observa a continuación. 
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -278,7 +289,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/decorador-5.png', alt='Texto que describa la imagen')
           
-        h2.text-center Trabajador
+        h3.text-center Trabajador
         p Obligaciones
         ul.lista-ul.mb-3
           li 
@@ -300,7 +311,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/decorador-6.png', alt='Texto que describa la imagen')
           
-        h2.text-center Empleador
+        h3.text-center Empleador
         ul.lista-ul.mb-3
           li 
             i.lista-ul__vineta
@@ -312,7 +323,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/decorador-7.png', alt='Texto que describa la imagen')
           
-        h2.text-center(style="color:#000 !important") Administradora de riesgos laborales
+        h3.text-center(style="color:#000 !important") Administradora de riesgos laborales
         p(style="color:#000 !important") Le corresponde:
         ul.lista-ul.mb-3
           li(style="color:#000 !important")  
@@ -324,11 +335,13 @@
           li(style="color:#000 !important")  
             i.lista-ul__vineta(style="color:#000 !important") 
             | Promover las actividades de promoción y prevención.
-
-    p.mb-5 En el plan de beneficios en el sistema de riesgos laborales se encuentran las prestaciones asistenciales y económicas, que se caracterizan por: 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 En el plan de beneficios en el sistema de riesgos laborales se encuentran las prestaciones asistenciales y económicas, que se caracterizan por: 
 
     .row.justify-content-center
-      .col-12.d-flex.align-items-stretch(data-aos="fade-down")
+      .col-10.d-flex.align-items-stretch(data-aos="fade-down")
         .tarjeta-avatar-b.custom-c.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img-11.png' alt='')
@@ -336,7 +349,7 @@
             .p-4
               p.mb-0 #[b Prestaciones asistenciales] <br> Asistencia médica general (quirúrgica, terapéutica y farmacéutica), servicios de hospitalización, odontología, diagnóstico y entrega de medicamentos, tratamientos, prótesis y órtesis (reparación y reposición), procesos de rehabilitación física y profesional, y transporte de pacientes. 
 
-      .col-12.d-flex.align-items-stretch(data-aos="fade-down")
+      .col-10.d-flex.align-items-stretch(data-aos="fade-down")
         .tarjeta-avatar-b.custom-c.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img-12.png' alt='')
@@ -344,28 +357,36 @@
             .p-4
               p.mb-0 #[b Prestaciones económicas] <br> En cuanto a las prestaciones económicas se pueden identificar: el subsidio por incapacidad temporal, la indemnización por incapacidad permanente o parcial, el auxilio funerario, la pensión por invalidez o pensión para sobrevivientes. 
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Servicios sociales complementarios
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Servicios sociales complementarios
 
-    p.mb-5 Este tipo de servicio se encuentra dirigido a la población mayor que vive en estado de mendicidad y tiene como único objetivo apoyar de manera económica a los ancianos que cumplan con los requisitos establecidos en la norma para dicho beneficio. Las modalidades de subsidio a las cuales puede aplicar esta población son: 
+    p.mb-3 Este tipo de servicio se encuentra dirigido a la población mayor que vive en estado de mendicidad y tiene como único objetivo apoyar de manera económica a los ancianos que cumplan con los requisitos establecidos en la norma para dicho beneficio. Las modalidades de subsidio a las cuales puede aplicar esta población son: 
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#E6EBFB")
-      .row
-        .col-lg-12
-          ul.lista-ul.mb-3
-            li 
-              i.lista-ul__vineta
-              | <strong>Subsidio económico directo:</strong> se entrega el dinero directamente a la persona. 
-            li 
-              i.lista-ul__vineta
-              | <strong>Subsidio económico indirecto:</strong> el dinero se entrega por medio de centros de bienestar para el adulto mayor. 
-      .tarjeta.tarjeta.p-4(style="background-color:#FFFF")
-        .row
-          .col-lg-12
-            p Este beneficio termina en caso que la persona muera, cuando se compruebe que la mendicidad se realiza como actividad productiva o cuando el adulto que accede al beneficio también reciba otro subsidio o pensión.
-
-    p.mb-5 Los requisitos generales para acceder a este tipo de beneficio son: 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mt-5(style="background-color:#E6EBFB")
+          .row
+            .col-lg-12
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | <strong>Subsidio económico directo:</strong> se entrega el dinero directamente a la persona. 
+                li 
+                  i.lista-ul__vineta
+                  | <strong>Subsidio económico indirecto:</strong> el dinero se entrega por medio de centros de bienestar para el adulto mayor. 
+          .tarjeta.tarjeta.p-4(style="background-color:#FFFF")
+            .row
+              .col-lg-12
+                p Este beneficio termina en caso que la persona muera, cuando se compruebe que la mendicidad se realiza como actividad productiva o cuando el adulto que accede al beneficio también reciba otro subsidio o pensión.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 Los requisitos generales para acceder a este tipo de beneficio son: 
 
     .row 
       .col-3
@@ -384,20 +405,28 @@
           .tarjeta(style="background-color:#EAF2E1; max-width:100%").p-4(titulo="Vivir institucionalizado")
             p Vivir en una institución sin ánimo de lucro, en donde se atienda a los ancianos en estado de indigencia, con limitaciones físicas o mentales.
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Sistema de seguridad social en salud
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Sistema de seguridad social en salud
     
     p.mb-5 Como ya se indicó, este sistema proviene de la Ley 100 de 1993, que manifiesta la obligatoriedad para todos los nacionales de afiliarse al sistema a través de los regímenes establecidos: contributivo, subsidiado y participantes vinculados, de excepción o especial, posibilitando así el acceso a la atención en salud en el marco del plan de beneficios establecidos.  
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-14.png')})`}"
-      )
-      .bloque-texto-g__texto.p-5
-        p.mb-0 A nivel normativo el aseguramiento corresponde a todas aquellas actividades encaminadas a la administración del riesgo financiero, la gestión del riesgo en salud, la garantía de acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la debida representación del afiliado ante el prestador y los demás actores del sistema. 
-
-    p.mb-5 Esta participación de diversas entidades gubernamentales tiene a su cargo roles o actividades específicas, las cuales posibilitan el monitoreo, seguimiento y control de los diferentes procesos que surgen al interior de la prestación del servicio de salud, como puede verse en la siguiente figura: 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-3
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-14.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            p.mb-0 A nivel normativo el aseguramiento corresponde a todas aquellas actividades encaminadas a la administración del riesgo financiero, la gestión del riesgo en salud, la garantía de acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la debida representación del afiliado ante el prestador y los demás actores del sistema. 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 Esta participación de diversas entidades gubernamentales tiene a su cargo roles o actividades específicas, las cuales posibilitan el monitoreo, seguimiento y control de los diferentes procesos que surgen al interior de la prestación del servicio de salud, como puede verse en la siguiente figura: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right")
@@ -406,7 +435,7 @@
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-15-1.svg', alt='La figura 2, establece los indicadores del modelo de aseguramiento en salud, el cual corresponde a tres aspectos básicos: 1. Dirección, vigilancia y control. 2. Aseguramiento y financiación. 3. Prestadores de los servicios de salud.')
 
-    .row.mt-5
+    .row.mt-5.mb-4
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Modelo de aseguramiento en salud</em>
@@ -418,21 +447,21 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/decorador-8.png', alt='Texto que describa la imagen')
           
-        h2.text-center Régimen contributivo
+        h3.text-center Régimen contributivo
         p Creado para las personas con capacidad de pago de sus aportes, ya sea por tener un vínculo laboral, ser servidor público, pensionado, jubilado, trabajador independiente, etc. Aquella persona que realiza cotización en salud debe cotizar de manera paralela al sistema de pensiones; se tiene el derecho de afiliar a otros miembros de su círculo familiar.
         p Para acceder a los servicios de salud se definen los aportes al régimen contributivo, llamados cuotas moderadoras y copagos.
 
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/decorador-9.png', alt='Texto que describa la imagen')
           
-        h2.text-center Régimen subsidiado
+        h3.text-center Régimen subsidiado
         p Disponible para las personas que no tienen capacidad de pago y población vulnerable. Se determina la afiliación mediante una encuesta. Para aquellas personas que no pueden acceder al régimen subsidiado existe el régimen vinculado, que recoge todas las personas no censadas o clasificadas en la encuesta dispuesta por el régimen subsidiado.
         p No se cobra cuotas moderadoras y copagos, todo está cubierto en el plan de beneficios. Pero si queda clasificada en el nivel II hay cobro establecido de copago.
 
@@ -464,8 +493,10 @@
                 i.fas.fa-caret-down.fa-2x.me-3
               h5.mb-0 <strong>Víctimas de violencia</strong>
             p.mb-0.text-small Los niños, niñas y adolescentes víctimas de violencia física o sexual y todas las formas de maltrato, que estén certificados por la autoridad competente, tendrán acceso gratuito a los servicios para la rehabilitación física y mental.
-
-    p.mb-5 Se debe tener presente que la atención en los siguientes servicios es gratuita, independientemente de la edad y del nivel socioeconómico.    
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-3 Se debe tener presente que la atención en los siguientes servicios es gratuita, independientemente de la edad y del nivel socioeconómico.    
     
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
@@ -474,7 +505,7 @@
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-18-1.svg', alt='La figura 3 muestra los servicios de salud que se encuentran exentos de pago en el régimen subsidiado.')
 
-    .row.mt-5
+    .row.mt-5.mb-4
       .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Servicios de salud exentos de pago</em>
@@ -482,21 +513,21 @@
           img(src='@/assets/curso/temas/tema1/img-18-2.svg', alt='La figura 3 muestra los servicios de salud que se encuentran exentos de pago en el régimen subsidiado.') 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-down-right")
+      .col-10(data-aos="fade-down-right")
         .cajon.color-secundario.p-4.mb-4
           p Acorde con las actualizaciones normativas también se encuentran exonerados del pago de cuotas moderadoras y de copagos las personas que pertenezcan a los grupos de población descritos en la Circular 16 de 2014, expedida por el Ministerio de Salud y Protección Social, que es actualizada por el Decreto 1652 de 2022 Régimen aplicable de copagos y cuotas moderadoras.
 
     p.mb-5 Además, no se debe olvidar que existe el régimen de excepción o especial, creado para atender a las personas que trabajan o han trabajado con instituciones públicas, tales como: docentes del Magisterio, Policía Nacional, Fuerzas Militares, trabajadores de Ecopetrol y telecomunicaciones. Este tipo de régimen existe ya que se cuenta con unas coberturas distintas a las dispuestas en los otros regímenes existentes, estas coberturas se enmarcan en el tipo de actividad y, así mismo, en el riesgo que puede tener la persona al asumir las actividades propias de su cargo, es decir, son personas expuestas a riesgos de salud diferentes en función de su actividad laboral y que, por tanto, deben acceder a un plan de beneficios especial. En la siguiente figura se indican otros grupos de población que se acogen al régimen de excepción o especial.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
+      .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Régimen de excepción o especial</em>
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-19-1.svg', alt='La figura 4, muestra los grupos poblacionales que se encuentran vinculados al régimen de excepción o especial.')
 
-    .row.mt-5
-      .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
+    .row.mt-5.mb-4
+      .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Régimen de excepción o especial</em>
         figure
@@ -511,22 +542,22 @@
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-20-1.svg', alt='La figura 5 establece las normas que regulan el sistema de salud en Colombia.')
 
-    .row.mt-5
+    .row.mt-5.mb-4
       .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Normatividad del sistema que regula la salud de los nacionales</em>
         figure
           img(src='@/assets/curso/temas/tema1/img-20-2.svg', alt='La figura 5 establece las normas que regulan el sistema de salud en Colombia.') 
 
-    p Se presenta una breve descripción de cada una de las normativas que regulan la prestación del servicio de salud, de acuerdo con los aportes, los beneficios y el curso que establece cada una de estas:
-
-    ol.lista-ol--cuadro
-      li 
-        .lista-ol--cuadro__vineta
-          span(style="color:#000 !important") <strong>1</strong>
-        | Acorde con lo dispuesto en la Ley 100 de 1993 y teniendo en cuenta que este sistema normativo se ha ido fortaleciendo durante los años posteriores se deben enunciar aquellas normas que han dado mayor fuerza a la salud, como es el caso de la Ley 1122 de 2007, la cual pone de manifiesto que la salud pública está conformada por diversas políticas que tienen por  objetivo garantizar la salud de toda la población, tomando en cuenta acciones colectivas e individuales que aportan a las condiciones de vida, bienestar y por supuesto, de desarrollo. 
-    
-    p.mb-5 Esta Ley 1122 de 2007 enriqueció el proceso de atención en el sector salud cumpliendo con las siguientes características:  
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p Se presenta una breve descripción de cada una de las normativas que regulan la prestación del servicio de salud, de acuerdo con los aportes, los beneficios y el curso que establece cada una de estas:
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span(style="color:#000 !important") <strong>1</strong>
+            | Acorde con lo dispuesto en la Ley 100 de 1993 y teniendo en cuenta que este sistema normativo se ha ido fortaleciendo durante los años posteriores se deben enunciar aquellas normas que han dado mayor fuerza a la salud, como es el caso de la Ley 1122 de 2007, la cual pone de manifiesto que la salud pública está conformada por diversas políticas que tienen por  objetivo garantizar la salud de toda la población, tomando en cuenta acciones colectivas e individuales que aportan a las condiciones de vida, bienestar y por supuesto, de desarrollo. 
+        p.mb-5 Esta Ley 1122 de 2007 enriqueció el proceso de atención en el sector salud cumpliendo con las siguientes características:  
     
     .row.mb-5
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -766,12 +797,15 @@
     
     p.mb-5 En cuanto a la salud ambiental se debe tener en cuenta las condiciones ambientales que aportan elementos diversos, buscando garantizar la debida ejecución de acciones para su implementación, estas acciones pueden consultarse a continuación.
 
-    SlyderB.mb-5(:datos="datosSlyder1")
-
-    p.mb-5 Asimismo, se contempla el Plan decenal de salud pública como aporte a la ejecución de acciones que redunden en el bienestar de la salud. Este plan corresponde con los objetivos, las metas, las estrategias para atender los eventos en salud, el bienestar integral y la calidad de vida de las personas en el territorio nacional, y se actualiza acorde con las necesidades detectadas en los centros de inteligencia epidemiológica.
+    .BGIMG02.p-4.mb-4
+      SlyderB.mb-5(:datos="datosSlyder1")
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-3 Asimismo, se contempla el Plan decenal de salud pública como aporte a la ejecución de acciones que redunden en el bienestar de la salud. Este plan corresponde con los objetivos, las metas, las estrategias para atender los eventos en salud, el bienestar integral y la calidad de vida de las personas en el territorio nacional, y se actualiza acorde con las necesidades detectadas en los centros de inteligencia epidemiológica.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-down-right")
+      .col-10(data-aos="fade-down-right")
         .cajon.color-secundario.p-4.mb-4
           p Este Centro Nacional de Enlace - CNE actúa como unidad de inteligencia encargada de monitorear, evaluar y notificar todos los eventos detectados y reportados por la población en el marco de los lineamientos establecidos en el reglamento sanitario internacional dispuesto por la OMS (2005). Las actividades de este organismo están orientadas principalmente hacia los eventos en salud pública, en especial a los relacionados con epidemias o emergencias de tipo sanitario. 
 
@@ -952,14 +986,14 @@
     p.mb-5 En el componente relacionado con las rutas integrales de atención en salud -RIAS, la descripción de los elementos que la conforman se encuentra explicado en la siguiente figura.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
+      .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Rutas integrales de atención en salud -RIAS</em>
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-34-1.svg', alt='La figura 6 indica cuales son las rutas integrales de atención en salud - RIAS, como son: prestador primario, prestador complementario, entidades administrativas de planes de beneficio y entidades territoriales.')
 
-    .row.mt-5
-      .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
+    .row.mt-5.mb-4
+      .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Rutas integrales de atención en salud -RIAS</em>
         figure
@@ -988,11 +1022,11 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/decorador-13.png', alt='Texto que describa la imagen')
           
-        h2.text-center Decreto 780 de 2016
+        h3.text-center Decreto 780 de 2016
         p Indica el proceso de afiliación de usuarios al sistema general de seguridad social en salud para el régimen contributivo y subsidiado. Describe la portabilidad, la implementación y la puesta en marcha del Sistema de información transaccional, que facilita la información de los afiliados. Además, aborda procesos como el flujo financiero, la administración de recursos, los elementos administrativos y procedimentales, relacionados con el sistema obligatorio de calidad en la atención de salud, buscando garantizar la pertinencia, accesibilidad, continuidad, oportunidad y seguridad en la atención, mediante diferentes sistemas entre los que están: 
         ul.lista-ul.mb-3
           li 
@@ -1010,11 +1044,11 @@
 
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/decorador-14.png', alt='Texto que describa la imagen')
           
-        h2.text-center Decreto 3518
+        h3.text-center Decreto 3518
         p Establece medidas sanitarias en acciones de vigilancia en salud pública; aislamiento, internación, cuarentena, vacunación y medidas profilácticas dirigidas a las personas y los animales. Este control de agentes, materiales de tipo infeccioso y tóxico, vectores y reservorios posibilita desocupar/desalojar lugares, la suspensión de servicios, el decomiso/destrucción de productos y la suspensión de la venta/empleo de estos. Reglamenta el sistema de vigilancia en salud pública, responsabilidad de MinSalud y de otras instituciones que ejercen control sanitario como:
         ul.lista-ul.mb-3
           li 
@@ -1033,35 +1067,39 @@
             i.lista-ul__vineta
             | Unidades de biomedicina, notificadoras y generadoras de datos (IPS, laboratorio clínico, bancos de sangre y de órganos).
 
-    p.mb-5 A partir de la información y de los resultados obtenidos gracias al sistema de vigilancia en salud pública se pueden cumplir con varios objetivos, tales como: 
+    p.mb-3 A partir de la información y de los resultados obtenidos gracias al sistema de vigilancia en salud pública se pueden cumplir con varios objetivos, tales como: 
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/decorador-15.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          ul.lista-ul.mb-3
-            li 
-              i.lista-ul__vineta
-              | Valorar y detectar cambios en el marco de los sucesos de interés en salud pública. 
-            li 
-              i.lista-ul__vineta
-              | Identificar los brotes y las epidemias, con el fin de organizar las respectivas acciones a seguir. 
-            li  
-              i.lista-ul__vineta
-              | Conocer tanto los factores de riesgo como los protectores, relacionados con los eventos en salud pública. 
-            li  
-              i.lista-ul__vineta
-              | Promover las acciones en torno a la investigación epidemiológica. 
-            li  
-              i.lista-ul__vineta
-              | Ayudar a que se generen las debidas acciones en torno a la planificación en salud (medidas de prevención, promoción en salud y políticas en salud pública). 
-            li  
-              i.lista-ul__vineta
-              | Promover las acciones que mejoren la calidad de los servicios de salud, así como la evaluación y el seguimiento de las intervenciones en salud. 
-
-    p.mb-5 Para lograr los objetivos propuestos dentro del sistema, cada actor participante debe garantizar el cumplimiento de las funciones asignadas, cada uno es elemento clave desde la planificación, la operación y la evaluación de los procesos delegados. Acorde con los lineamientos que deben cumplir todos los sectores respecto al cuidado de la salud se resalta que en el cumplimiento de las normas en salud pública existen algunos tipos de sanciones ante el incumplimiento de exigencias, estas pueden describirse como amonestaciones, multas, decomiso, suspensión de permiso sanitario, cierre de tipo temporal o definitivo del establecimiento, edificación o servicio. 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema1/decorador-15.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | Valorar y detectar cambios en el marco de los sucesos de interés en salud pública. 
+                li 
+                  i.lista-ul__vineta
+                  | Identificar los brotes y las epidemias, con el fin de organizar las respectivas acciones a seguir. 
+                li  
+                  i.lista-ul__vineta
+                  | Conocer tanto los factores de riesgo como los protectores, relacionados con los eventos en salud pública. 
+                li  
+                  i.lista-ul__vineta
+                  | Promover las acciones en torno a la investigación epidemiológica. 
+                li  
+                  i.lista-ul__vineta
+                  | Ayudar a que se generen las debidas acciones en torno a la planificación en salud (medidas de prevención, promoción en salud y políticas en salud pública). 
+                li  
+                  i.lista-ul__vineta
+                  | Promover las acciones que mejoren la calidad de los servicios de salud, así como la evaluación y el seguimiento de las intervenciones en salud. 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 Para lograr los objetivos propuestos dentro del sistema, cada actor participante debe garantizar el cumplimiento de las funciones asignadas, cada uno es elemento clave desde la planificación, la operación y la evaluación de los procesos delegados. Acorde con los lineamientos que deben cumplir todos los sectores respecto al cuidado de la salud se resalta que en el cumplimiento de las normas en salud pública existen algunos tipos de sanciones ante el incumplimiento de exigencias, estas pueden describirse como amonestaciones, multas, decomiso, suspensión de permiso sanitario, cierre de tipo temporal o definitivo del establecimiento, edificación o servicio. 
 
     Separador 
     
@@ -1112,12 +1150,14 @@
     p Por medio de los criterios se organizan de forma detallada todos los requisitos que deben cumplir las EPS respecto a los estándares de estructura, proceso y resultado. Es importante tener claridad que, dada la dimensión de acción de las EPS, los estándares de habilitación están orientados hacia el inicio (entrada o procesos previos) y la permanencia (condiciones y requisitos a evidenciar durante la operación de las acciones en salud) de las actividades en salud.
     p.mb-5 Como se puede evidenciar hasta el momento, todos los actores que participan en los procesos de atención en salud deben cumplir y dar garantía de calidad en la prestación de los servicios, en donde el fin último es la salud y el bienestar de la población, teniendo en cuenta los elementos de salud pública y vigilancia del comportamiento de la salud a nivel nacional. 
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-41.png')})`}"
-      )
-      .bloque-texto-g__texto.p-5
-        p.mb-0 En el material complementario, podrá acceder al <strong>Manual de habilitación de REDES integrales de prestadores de servicios de salud para las entidades departamentales y distritales de salud.</strong> Este documento sirve de apoyo para realizar el proceso de habilitación de las Redes integrales de prestadores de servicios de salud - RIPSS por cada Entidad promotora de salud - EPS autorizada a operar en el departamento o distrito, en cumplimiento de lo previsto en la Resolución 1441 de 2016.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-41.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            p.mb-0 En el material complementario, podrá acceder al <strong>Manual de habilitación de REDES integrales de prestadores de servicios de salud para las entidades departamentales y distritales de salud.</strong> Este documento sirve de apoyo para realizar el proceso de habilitación de las Redes integrales de prestadores de servicios de salud - RIPSS por cada Entidad promotora de salud - EPS autorizada a operar en el departamento o distrito, en cumplimiento de lo previsto en la Resolución 1441 de 2016.
 
 
 
@@ -1157,7 +1197,7 @@ export default {
         titulo:
           'Entidades territoriales y la Superintendencia Nacional de Salud',
         texto:
-          'Las entidades territoriales del orden departamental, distrital y municipal corresponden a las personas jurídicas, de derecho público, que componen la división político-administrativa del Estado, gozando de autonomía en la gestión de sus intereses. Mientas que la Superintendencia Nacional de Salud realiza la inspección, la vigilancia y el control del cumplimiento de las normas constitucionales y legales que reglamentan el Sistema general de Seguridad Social en Salud, incluyendo las normas técnicas, científicas, administrativas y financieras del sector salud.',
+          'Las entidades territoriales del orden departamental, distrital y municipal corresponden a las personas jurídicas, de derecho público, que componen la división político-administrativa del Estado, gozando de autonomía en la gestión de sus intereses. Mientas que la Superintendencia Nacional de Salud realiza la inspección, la vigilancia y el control del cumplimiento de las normas constitucionales y legales que reglamentan el Sistema General de Seguridad Social en Salud, incluyendo las normas técnicas, científicas, administrativas y financieras del sector salud.',
         imagen: require('@/assets/curso/temas/tema1/img-4.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
           h2 Sistema general de seguridad social en salud - SGSSS
-        p.mb-4 #[b Objetivo] identificar los conceptos generales y normativos presentes en la fundamentación de las políticas públicas del sector salud.
+        p.mb-4 #[b Objetivo:] identificar los conceptos generales y normativos presentes en la fundamentación de las políticas públicas del sector salud.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

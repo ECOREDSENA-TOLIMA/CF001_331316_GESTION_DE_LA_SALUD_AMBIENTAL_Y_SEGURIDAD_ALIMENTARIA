@@ -9,7 +9,7 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
     ],
   },
@@ -186,7 +186,7 @@ export default {
         'Ministerio de Salud y de la Protección Social. 2017. Manual de habilitación de redes Integrales de prestadores de servicios de salud para las entidades departamentales y distritales de salud. Versión 1.0 Enero de 2017.',
       tipo: 'Documento técnico',
       link:
-        'https://www.minsalud.gov.co/sites/rid/Paginas/PageNotFoundError.aspx?requestUrl=https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PSA/manual-habilitacion-redes-dts.pdfv',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PSA/manual-habilitacion-redes-dts.pdf',
     },
     {
       tema: 'Resoluciones',

@@ -64,15 +64,15 @@
     p.mb-5 Es importante tener en cuenta que las acciones de calidad están dirigidas a las diferentes instancias encargadas, como puede observarse en la siguiente figura: 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
+      .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Entidades que deben cumplir con el sistema obligatorio de garantía de la calidad </em>
         figure
           img(src='@/assets/curso/temas/tema2/img-2-1.svg', alt='La figura 7, indica las diferentes entidades con cumplimiento en el sistema obligatorio de garantía de la calidad.')
           figcaption Nota. Tomado del Sistema obligatorio de garantía de calidad en salud (SOGCS). Ministerio de Salud y Protección Social.
 
-    .row.mt-5.mb-2
-      .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
+    .row.mt-5.mb-3
+      .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Entidades que deben cumplir con el sistema obligatorio de garantía de la calidad </em>
         figure
@@ -129,7 +129,7 @@
           img(src='@/assets/curso/temas/tema2/img-3-1.svg', alt='La figura 8. describe los responsables del sistema obligatorio de garantía de calidad en salud- SOGCS')
           figcaption Nota. Tomada del Decreto 780 de 2016. Ministerio de Salud y Protección Social.  <a href="https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf">Decreto</a>
 
-    .row.mt-5.mb-2
+    .row.mt-5.mb-3
       .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 8.] <em>Responsables del Sistema Obligatorio de Garantía de Calidad en salud - SOGC</em>
@@ -142,7 +142,7 @@
         i.lista-ul__vineta
         | <strong>Decreto 780 de 2016,</strong> aplicable para las IPS, las entidades promotoras de salud, los gestores farmacéuticos, las entidades adaptadas, las empresas de medicina prepagada y las secretarías de salud (departamentales, distritales y municipales). En este sentido, se debe dejar claro que los elementos del sistema obligatorio de garantía de la calidad no tendrán injerencia sobre los siguientes tipos de entidades: bancos de sangre, laboratorios de genética forense, bancos de semen de las unidades de biomedicina reproductiva y otros bancos que manejan componentes anatómicos, así como demás entidades que realicen procesos de producción de insumos de salud y productos biológicos; ya que este tipo de entidades deben ser evaluadas y supervisadas por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos  INVIMA, acorde con lo estipulado en el Artículo 245 de la Ley 100 de 1993. 
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
+    .tarjeta.tarjeta.p-4.mb-4.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
         .col-md-8
           p Este decreto enuncia las condiciones o requisitos de habilitación a tener en cuenta por los prestadores de servicios de salud a los cuales aplica. Dichos requisitos están agrupados en el marco de las condiciones de capacidad tecnológica y científica, condiciones de suficiencia patrimonial y financiera y las condiciones de capacidad técnico- administrativa. 
@@ -151,44 +151,50 @@
         .col-md-4
           figure
             img(src='@/assets/curso/temas/tema2/img-4.png', alt='Imagen decorativa')
-
-    p Las condiciones de cumplimiento en el marco de los estándares aplicables según el tipo de entidad serán validadas por las entidades departamentales y distritales de salud, por tanto, los prestadores deben tener plena responsabilidad en la veracidad de la información registrada. Una vez otorgada la habilitación, esta tendrá una vigencia de 4 años que se cuentan a partir de la radicación de los documentos. 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p Las condiciones de cumplimiento en el marco de los estándares aplicables según el tipo de entidad serán validadas por las entidades departamentales y distritales de salud, por tanto, los prestadores deben tener plena responsabilidad en la veracidad de la información registrada. Una vez otorgada la habilitación, esta tendrá una vigencia de 4 años que se cuentan a partir de la radicación de los documentos. 
 
     ul.lista-ul.mb-3
       li 
         i.lista-ul__vineta
         | Si bien ya se han descrito los lineamientos generales del proceso de habilitación de las Instituciones prestadoras de servicios de salud - IPS, también es importante citar el <strong>Decreto 682 de 2018,</strong> que tiene como finalidad exponer los requisitos para tener la autorización de funcionamiento, las condiciones de habilitación y de permanencia por parte de las entidades promotoras de salud – EPS, las entidades adaptadas al sistema, las organizaciones de economía solidaria que sean vigiladas por la Superintendencia Nacional de Salud y que estén autorizadas para operar el aseguramiento en salud y, las cajas de compensación familiar que prestan los servicios tanto al régimen contributivo como subsidiado. Estas entidades deben contar con la debida autorización de funcionamiento, basada en las siguientes actividades: 
-
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img-5.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          ul.lista-ul.mb-3
-            li 
-              i.lista-ul__vineta
-              | Estudio de capacidad técnico - administrativa. 
-            li 
-              i.lista-ul__vineta
-              | Estudio de capacidad tecnológica y científica.
-            li  
-              i.lista-ul__vineta
-              | Caracterización de la población que se pretende asegurar.
-            li  
-              i.lista-ul__vineta
-              | Estudio de mercado.
-            li  
-              i.lista-ul__vineta
-              | Condiciones financieras y de solvencia.
-            li  
-              i.lista-ul__vineta
-              | Estudio de factibilidad financiera.
-            li  
-              i.lista-ul__vineta
-              | Código de conducta y de gobierno organizacional.
-
-    p.mb-5 El proceso de autorización de funcionamiento está a cargo de la Superintendencia Nacional de Salud, y dentro de las actividades que se desarrollan en este proceso se pueden describir las siguientes: 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema2/img-5.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | Estudio de capacidad técnico - administrativa. 
+                li 
+                  i.lista-ul__vineta
+                  | Estudio de capacidad tecnológica y científica.
+                li  
+                  i.lista-ul__vineta
+                  | Caracterización de la población que se pretende asegurar.
+                li  
+                  i.lista-ul__vineta
+                  | Estudio de mercado.
+                li  
+                  i.lista-ul__vineta
+                  | Condiciones financieras y de solvencia.
+                li  
+                  i.lista-ul__vineta
+                  | Estudio de factibilidad financiera.
+                li  
+                  i.lista-ul__vineta
+                  | Código de conducta y de gobierno organizacional.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 El proceso de autorización de funcionamiento está a cargo de la Superintendencia Nacional de Salud, y dentro de las actividades que se desarrollan en este proceso se pueden describir las siguientes: 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-11.col-12(data-aos="fade-down")
@@ -223,14 +229,16 @@
           .tarjeta.tarjeta--custom
             .p-4
               p.mb-0 Autorización para afiliar y recibir por cada afiliado la unidad de pago por capitación y, los demás recursos financieros del sector salud que ayudan a cumplir las funciones asignadas en la normatividad vigente.
-
-    p.mb-5 A manera de resumen, en relación con las condiciones de habilitación de las entidades prestadoras de salud puede consultar la siguiente tabla.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 A manera de resumen, en relación con las condiciones de habilitación de las entidades prestadoras de salud puede consultar la siguiente tabla.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-11(data-aos="fade-right", alt="La tabla 2 muestra las condiciones de habilitación de las EPS, desde la capacidad técnico-administrativa, la capacidad tecnológica y capacidad científica.")
+      .col-12.col-lg-10(data-aos="fade-right", alt="La tabla 2 muestra las condiciones de habilitación de las EPS, desde la capacidad técnico-administrativa, la capacidad tecnológica y capacidad científica.")
         .titulo-sexto.color-acento-contenido.mb-4
           p.titulo.pb-0.mb-0 #[b Tabla 2.] #[i Resumen de las condiciones de habilitación EPS.] 
-      .col-12.col-lg-11(data-aos="fade-right")
+      .col-12.col-lg-10(data-aos="fade-right")
         .tabla-b.color-acento-contenido
           table(style="min-width:auto")
             thead
@@ -261,11 +269,13 @@
       )
       .bloque-texto-g__texto.p-5
         p.mb-0 Es importante tener presente que parte de las actividades que deben desarrollar los prestadores de servicios de salud están orientadas a la auditoría para el mejoramiento de la calidad de atención en salud; esta auditoría debe estar basada en estándares superiores a los contenidos en la habilitación, es decir, podrá basar su plan de auditoría bajo los estándares de acreditación o los que hagan sus veces (indicadores para el monitoreo del sistema de información de calidad, indicadores de seguimiento a riesgos y política de seguridad del paciente).
-
-    p.mb-5 Dentro del plan de auditorías, las actividades generales están enfocadas a realizar la evaluación, el seguimiento y el mejoramiento; la comparación entre la calidad observada y la calidad esperada, adicional a esto deberá tener en cuenta los diversos niveles de operación, los cuales son el autocontrol y la auditoría interna y externa. 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-0 Dentro del plan de auditorías, las actividades generales están enfocadas a realizar la evaluación, el seguimiento y el mejoramiento; la comparación entre la calidad observada y la calidad esperada, adicional a esto deberá tener en cuenta los diversos niveles de operación, los cuales son el autocontrol y la auditoría interna y externa. 
 
     .row.justify-content-center.align-items-center.mb-2
-      .col-12(data-aos="fade-down-right")
+      .col-10(data-aos="fade-down-right")
         .cajon.color-secundario.p-4.mb-4
           p Acorde con el resultado encontrado en los niveles de operación se deben definir las acciones preventivas, de seguimiento y coyunturales. Para concluir, tanto los niveles de operación, las acciones y el proceso de evaluación continua siguen la estrategia de ruta crítica que está orientada a la valoración cuantitativa y cualitativa. 
 
@@ -276,68 +286,72 @@
  
     p.mb-5 Mediante el Decreto 903 de 2014 MinSalud delegó al ICONTEC el proceso de acreditación en Colombia, por ello, es necesario conocer que la entidad a cargo de los procesos de acreditación a su vez debe estar certificada por la International <strong><em>Society for Quality in Healthcare - ISQUA</em></strong> y presentar experiencia de certificación de 5 años continuos.  En el proceso de acreditación es fundamental dirigir las acciones hacia los siguientes ejes.
 
-    .tarjeta.tarjeta--azul2.p-4.mb-5(data-aos="fade-down-right")
+    .BGIMG02.p-4.mb-4
       SlyderB.mb-5(:datos="datosSlyder")
 
-    p.mb-5 La herramienta más importante para operativizar un programa de acreditación es realizar actividades de forma sistemática, garantizando un proceso continuo de transformación cultural de la de la organización; dicha transformación es promovida desde el direccionamiento estratégico y las acciones coordinadas del talento humano. Además, la acreditación cuenta con unos principios que garantizan la correcta ejecución de sus actividades en busca del alcance de estándares superiores; estos principios se pueden describir como confidencialidad, gradualidad y eficiencia.
+    p.mb-3 La herramienta más importante para operativizar un programa de acreditación es realizar actividades de forma sistemática, garantizando un proceso continuo de transformación cultural de la de la organización; dicha transformación es promovida desde el direccionamiento estratégico y las acciones coordinadas del talento humano. Además, la acreditación cuenta con unos principios que garantizan la correcta ejecución de sus actividades en busca del alcance de estándares superiores; estos principios se pueden describir como confidencialidad, gradualidad y eficiencia.
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          p Para una correcta ejecución de las actividades que garanticen un servicio de alta calidad se cuenta con los ejes de la acreditación, estos son:
-          ul.lista-ul.mb-3
-            li 
-              i.lista-ul__vineta
-              | La gestión tecnológica. 
-            li 
-              i.lista-ul__vineta
-              | La humanización de la atención en salud. 
-            li  
-              i.lista-ul__vineta
-              | La seguridad del paciente y la gestión clínica. 
-            li  
-              i.lista-ul__vineta
-              | El enfoque de gestión del riesgo. 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              p Para una correcta ejecución de las actividades que garanticen un servicio de alta calidad se cuenta con los ejes de la acreditación, estos son:
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | La gestión tecnológica. 
+                li 
+                  i.lista-ul__vineta
+                  | La humanización de la atención en salud. 
+                li  
+                  i.lista-ul__vineta
+                  | La seguridad del paciente y la gestión clínica. 
+                li  
+                  i.lista-ul__vineta
+                  | El enfoque de gestión del riesgo. 
 
     p El manual de estándares del sistema único de acreditación en salud es una herramienta dispuesta en el proceso de acreditación; sin embargo, en caso que la entidad que asume el proceso tenga sus propios manuales acreditados por la <strong><em>International Society for Quality in Healthcare - ISQUA</em></strong> únicamente podrán ser utilizados y aplicados con la debida autorización por parte del Ministerio de Salud y Protección Social. 
     p.mb-5 Para cumplir con el ciclo global de acreditación se deben seguir los procesos de: 
 
-    .row.mb-3(data-aos="fade-right")
-      .col-5
-        img(src='@/assets/curso/temas/tema2/img-12.png')
-      .col-7
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Selección de la entidad acreditadora, la cual debe estar inscrita en el registro especial de acreditadores en salud. 
-          li 
-            i.lista-ul__vineta
-            | Autoevaluación de los estándares de acreditación elegidos por la entidad que desea acreditarse. 
-          li 
-            i.lista-ul__vineta
-            | Gestión de los planes de mejoramiento continuo. 
-          li 
-            i.lista-ul__vineta
-            | Evaluación externa del cumplimiento de los estándares. 
-          li 
-            i.lista-ul__vineta
-            | Otorgamiento de la acreditación, este se da por tres años bajo las siguientes categorías: 
-          li
-            ul
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .row.mb-3(data-aos="fade-right")
+          .col-5
+            img(src='@/assets/curso/temas/tema2/img-12.png')
+          .col-7
+            ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | Acreditado con excelencia. 
+                | Selección de la entidad acreditadora, la cual debe estar inscrita en el registro especial de acreditadores en salud. 
               li 
                 i.lista-ul__vineta
-                | Acreditado. 
+                | Autoevaluación de los estándares de acreditación elegidos por la entidad que desea acreditarse. 
               li 
                 i.lista-ul__vineta
-                | Acreditación condicionada (seis meses).
+                | Gestión de los planes de mejoramiento continuo. 
+              li 
+                i.lista-ul__vineta
+                | Evaluación externa del cumplimiento de los estándares. 
+              li 
+                i.lista-ul__vineta
+                | Otorgamiento de la acreditación, este se da por tres años bajo las siguientes categorías: 
+              li
+                ul
+                  li 
+                    i.lista-ul__vineta
+                    | Acreditado con excelencia. 
+                  li 
+                    i.lista-ul__vineta
+                    | Acreditado. 
+                  li 
+                    i.lista-ul__vineta
+                    | Acreditación condicionada (seis meses).
 
-    p.mb-5 Todos los componentes del sistema obligatorio de garantía de calidad enunciados hasta el momento requieren de un elemento básico y es aquel relacionado con el reporte de información producto de los procesos de atención en salud. Este reporte de información tiene como objetivos: 
+        p.mb-5 Todos los componentes del sistema obligatorio de garantía de calidad enunciados hasta el momento requieren de un elemento básico y es aquel relacionado con el reporte de información producto de los procesos de atención en salud. Este reporte de información tiene como objetivos: 
 
     .tarjeta--container.row.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -345,11 +359,11 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema2/decorador-15.png', alt='Texto que describa la imagen')
           
-        h2.text-center Monitorear
+        h3.text-center Monitorear
         p Consiste en realizar el respectivo seguimiento a la calidad de los servicios, con el fin de que todos los actores involucrados realicen la respectiva evaluación y ajuste a los elementos que componen el SOGCS (Sistema obligatorio de garantía de la calidad en salud).   
 
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -357,11 +371,11 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-secundario.p-5(style="background-color:#E6EBFB")
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema2/decorador-16.png', alt='Texto que describa la imagen')
           
-        h2.text-center Orientar
+        h3.text-center Orientar
         p Refiere a la entrega de información que incluye la selección de la EAPB y/o la institución prestadora de servicios por parte de los usuarios y demás, teniendo en cuenta la información de calidad reportada. 
 
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -369,11 +383,11 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema2/decorador-17.png', alt='Texto que describa la imagen')
           
-        h2.text-center Referenciar
+        h3.text-center Referenciar
         p Esta actividad incluye el referenciación de tipo competitivo sobre los aspectos de calidad de los servicios entre las EAPB y las instituciones prestadoras de servicios. 
 
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -381,11 +395,11 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-secundario.p-5(style="background-color:#E6EBFB")
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema2/decorador-18.png', alt='Texto que describa la imagen')
           
-        h2.text-center Estimular
+        h3.text-center Estimular
         p Sugiere incentivar la gestión de la calidad basada en hechos y datos.
 
     Separador
@@ -399,38 +413,40 @@
         i.lista-ul__vineta
         | <strong>Resolución 3100 de 2019.</strong> Nace en función de los diversos avances tecnológicos y el surgimiento de otras normas regulatorias en el sector salud, por tanto, se hizo necesaria la actualización de todos los procedimientos y las condiciones de inscripción que fueron abordados en normas anteriores como la Resolución 2003 de 2014. Es necesario aclarar que estas condiciones de habilitación son aplicables solo a los siguientes tipos de prestadores: 
 
-    .row(data-aos="fade-down-left") 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-13.png' alt='')
-          .tarjeta.tarjeta--azul
-            .p-4
-              p Instituciones prestadoras de servicios de salud - IPS. 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .row(data-aos="fade-down-left") 
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema2/img-13.png' alt='')
+              .tarjeta.tarjeta--azul
+                .p-4
+                  p Instituciones prestadoras de servicios de salud - IPS. 
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-14.png' alt='')
-          .tarjeta.tarjeta--azul
-            .p-4
-              p Entidades que asuman la actividad de transporte especial de pacientes. 
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema2/img-14.png' alt='')
+              .tarjeta.tarjeta--azul
+                .p-4
+                  p Entidades que asuman la actividad de transporte especial de pacientes. 
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-30.png' alt='')
-          .tarjeta.tarjeta--azul
-            .p-4
-              p Profesionales que ejerzan sus actividades de manera independiente.  
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema2/img-30.png' alt='')
+              .tarjeta.tarjeta--azul
+                .p-4
+                  p Profesionales que ejerzan sus actividades de manera independiente.  
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/img-31.png' alt='')
-          .tarjeta.tarjeta--azul
-            .p-4
-              p Instituciones con objeto social diferente a la prestación de servicios de salud, pero que, en el ejercicio de sus funciones, deban realizar la atención en salud. 
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema2/img-31.png' alt='')
+              .tarjeta.tarjeta--azul
+                .p-4
+                  p Instituciones con objeto social diferente a la prestación de servicios de salud, pero que, en el ejercicio de sus funciones, deban realizar la atención en salud. 
 
     p Es importante recordar que, así como existen regímenes especiales que se abordaron en la primera parte de esta revisión normativa, las entidades que presten sus servicios de salud al régimen especial y de excepción no tendrán la obligación de cumplir con lo definido en el SOGCS, y solo estarán en la obligación de hacerlo si realizan una inscripción de tipo voluntario para ofertar y operar sus programas de salud dentro de este sistema. También están exentos de cumplir con estos requisitos los servicios de salud que se presten a nivel intramural de los centros carcelarios del país. 
     p Las condiciones para evaluar la viabilidad de estos prestadores estarán a cargo de las secretarías de salud departamental o distrital, las entidades responsables del pago de los servicios prestados y la Superintendencia Nacional de Salud. 
@@ -439,46 +455,48 @@
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
-          .col-8
+          .col-7
             img(src='@/assets/curso/temas/tema2/img-15.png' alt='AvatarTop')
         h3 Autoevaluación
         p Realizar la autoevaluación de las condiciones descritas en los estándares. 
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
-          .col-8
+          .col-7
             img(src='@/assets/curso/temas/tema2/img-16.png' alt='AvatarTop')
         h3 Formulario de inscripción
         p Ingresar el página web de la Secretaría de Salud y diligenciar el formulario de inscripción en el REPS.
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
-          .col-8
+          .col-7
             img(src='@/assets/curso/temas/tema2/img-17.png' alt='AvatarTop')
         h3 Declaración de autoevaluación
         p Diligenciar la declaración de la autoevaluación de los servicios que se van habilitar e imprimir el formulario de inscripción. 
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
-          .col-8
+          .col-7
             img(src='@/assets/curso/temas/tema2/img-18.png' alt='AvatarTop')
         h3 Radicación del formulario de inscripción
         p Radicar en la secretaría de salud distrital o departamental (o en la entidad asignada para esta actividad) el formulario de inscripción y la declaración de autoevaluación.  
 
       .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
-          .col-8
+          .col-7
             img(src='@/assets/curso/temas/tema2/img-19.png' alt='AvatarTop')
         h3 Visita de verificación
         p Recibir la visita de verificación por parte de la secretaría de salud distrital o departamental (o en la entidad asignada para esta actividad).  
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-3 La autoevaluación de las condiciones descritas en los estándares, están orientadas a las condiciones que se deben cumplir en todos los servicios y aquellas que son exclusivas según el tipo de servicio. Para dar una mirada general a las condiciones aplicables a todos los servicios, se ha realizado el siguiente cuadro resumen: 
 
-    p.mb-5 La autoevaluación de las condiciones descritas en los estándares, están orientadas a las condiciones que se deben cumplir en todos los servicios y aquellas que son exclusivas según el tipo de servicio. Para dar una mirada general a las condiciones aplicables a todos los servicios, se ha realizado el siguiente cuadro resumen: 
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-10.col-lg-12(data-aos="fade-right", alt="La tabla 3, muestra el sistema único de habilitación, teniendo en cuenta todos los estándares requeridos para la prestación de los servicios en salud.")
+    .row.justify-content-center.align-items-center.mb-2
+      .col-12.col-md-10.col-lg-10(data-aos="fade-right", alt="La tabla 3, muestra el sistema único de habilitación, teniendo en cuenta todos los estándares requeridos para la prestación de los servicios en salud.")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 3.] #[i Sistema único de habilitación, estándares todos los servicios.] 
-      .col-12.col-md-10.col-lg-12(data-aos="fade-right")
+      .col-12.col-md-10.col-lg-10(data-aos="fade-right")
         .tabla-b.color-acento-contenido.mb-5
           table(style="min-width:auto")
             caption Nota. Resolución 3100 de 2019. Ministerio de Salud y Protección Social. https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%203100%20de%202019.pdf
@@ -594,8 +612,10 @@
                     li 
                       i.lista-ul__vineta
                       | Auditoría a los contratos.
-
-    p.mb-5 La prestación de los servicios de salud puede realizarse por medio de diversas modalidades, en las cuales se distinguen las siguientes: 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 La prestación de los servicios de salud puede realizarse por medio de diversas modalidades, en las cuales se distinguen las siguientes: 
 
     .row.mb-5
       .col-md-6
@@ -620,9 +640,9 @@
         | <strong>Resolución 256 de 2016,</strong> la cual fundamenta el componente de información para la calidad que es ejecutado por medio del monitoreo de indicadores. Esta medición de indicadores permite evaluar las condiciones de calidad necesarias en la prestación de los servicios de salud. 
 
     .row.mb-5(data-aos="fade-right")
-      .col-5
+      .col-4
         img(src='@/assets/curso/temas/tema2/img-21.png')
-      .col-7
+      .col-8
         p La clasificación de los indicadores a reportar contenidos es esta resolución son: 
         ul.lista-ul.mb-3
           li 
@@ -643,24 +663,28 @@
     p.mb-5 Hay otras herramientas de monitoreo en torno a las atenciones en salud, tales como el Registro Individual de Prestación de Servicios de Salud - RIPS. Este será revisado en detalle en el siguiente componente; sin embargo, es importante tener presente que consiste en el conjunto de datos que identifica las actividades de salud que se les realiza a las personas y que hacen parte integral de la factura de venta de los servicios de salud,  sirve para que los prestadores de servicios de salud puedan documentar el valor cobrado por las actividades de salud prestadas a las personas ante la entidad pagadora de los servicios de salud, informar sobre actividades de salud prestadas en las modalidades de contratación por paquete, por capacitación o servicios integrales y conocer las causas que generan la demanda de servicios de salud. 
 
     .row.justify-content-center.align-items-center.mb-2
-      .col-12(data-aos="fade-down-right")
+      .col-10(data-aos="fade-down-right")
         .cajon.color-secundario.p-4.mb-4
           p El aporte de los RIPS a las EAPB consiste en realizar la auditoría de cuentas y la autorización de servicios y pagos, conocer el estado de salud y enfermedad de la población afiliada, optimizar la contratación en función de la demanda de los servicios, impactando positivamente los procesos administrativos de las entidades que participan del proceso de atención de la población y en el seguimiento de las acciones en salud pública. 
 
-    p.mb-5 En el sistema obligatorio de garantía de la calidad se hace indispensable contar con los suficientes elementos en el marco de la política de seguridad del paciente, la cual tiene como objetivo prevenir la ocurrencia de hechos que afecten la seguridad de los usuarios que acceden al servicio de salud. Para garantizar un adecuado desarrollo de la política de seguridad del paciente es necesario garantizar los siguientes elementos. 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p.mb-5 En el sistema obligatorio de garantía de la calidad se hace indispensable contar con los suficientes elementos en el marco de la política de seguridad del paciente, la cual tiene como objetivo prevenir la ocurrencia de hechos que afecten la seguridad de los usuarios que acceden al servicio de salud. Para garantizar un adecuado desarrollo de la política de seguridad del paciente es necesario garantizar los siguientes elementos. 
 
-    .tarjeta.tarjeta--azul2.p-4.mb-5(data-aos="fade-down-right")
+    .BGIMG02.p-4
       SlyderB.mb-5(:datos="datosSlyder1")
 
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img-29.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          p Lo invitamos a consultar en el material complementario la Guía técnica “Buenas prácticas para la seguridad del paciente en la atención en salud”. Seguridad del paciente y la atención segura. Este documento sirve de apoyo para la estructuración de las estrategias a tener en cuenta dentro de la institución, garantizando la seguridad en los procesos de atención.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema2/img-29.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              p Lo invitamos a consultar en el material complementario la Guía técnica “Buenas prácticas para la seguridad del paciente en la atención en salud”. Seguridad del paciente y la atención segura. Este documento sirve de apoyo para la estructuración de las estrategias a tener en cuenta dentro de la institución, garantizando la seguridad en los procesos de atención.
 
-    p Para finalizar la revisión del presente componente es necesario dar a conocer el sistema encargado de organizar y disponer toda la información en el marco del Sistema Obligatorio de Garantía de la Calidad - SOGC, buscando entregar las herramientas que faciliten la difusión, la estandarización de los indicadores y de los canales de acceso para el debido seguimiento y evaluación del sistema de salud en el marco de los atributos de calidad, humanización y resultados en salud de los diferentes agentes del sector involucrados en la atención, este recibe el nombre de Observatorio Nacional de Calidad en Salud - ONCAS. 
+        p Para finalizar la revisión del presente componente es necesario dar a conocer el sistema encargado de organizar y disponer toda la información en el marco del Sistema Obligatorio de Garantía de la Calidad - SOGC, buscando entregar las herramientas que faciliten la difusión, la estandarización de los indicadores y de los canales de acceso para el debido seguimiento y evaluación del sistema de salud en el marco de los atributos de calidad, humanización y resultados en salud de los diferentes agentes del sector involucrados en la atención, este recibe el nombre de Observatorio Nacional de Calidad en Salud - ONCAS. 
 
 
 

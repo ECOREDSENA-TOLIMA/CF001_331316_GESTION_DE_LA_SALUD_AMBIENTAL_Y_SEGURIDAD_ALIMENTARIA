@@ -69,16 +69,37 @@
     display: none
 
 .tema1
-  .tarjeta--gris
-    background-color: #F1ECE6
+  .bg
+    &-c8
+      position: relative
+      left: -2%
+      h3
+        color: #455B2D
+      @media screen and ( max-width: $bp-max-lg )
+        left: -3%
+      @media screen and ( max-width: $bp-max-sm )
+        left: -4%
+  .BGIMG02
+    border-radius: 15px
+    background-image: url("../assets/curso/temas/fondo2.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+  .BGIMG01
+    border-radius: 15px
+    background-image: url("../assets/curso/temas/fondo.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center 
+  .slyder__btn
+    background-color: $color-acento-botones
+    color: #fff !important
   .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
     background-color: #EAF2E1
   .tarjeta--gris1
     background-color: #E6EBFB
   .tarjeta--azul
     background-color: #F1ECE6
-  .tarjeta.tarjeta--azul2
-    background: #EAF2E1
   .acordion__accion__btn--a
     background-color: #755952
     color: #fff !important
@@ -148,6 +169,17 @@
     background-color: lighten($color-secundario, 10%)
 
 .tema2
+  .slyder__btn
+    background-color: $color-acento-botones
+    color: #fff !important
+  .BGIMG02
+    border-radius: 15px
+    background-image: url("../assets/curso/temas/fondo2.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+  .slyder-f__btn i
+    color: $color-acento-botones
   .tarjeta--gris
     background-color: #F1ECE6
   .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
