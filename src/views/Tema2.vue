@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Sistema Obligatorio de Garantía de la Calidad en Salud (SOGCS)
+      h1 Sistema Obligatorio de Garantía de la Calidad
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -69,7 +69,7 @@
           p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Entidades que deben cumplir con el sistema obligatorio de garantía de la calidad </em>
         figure
           img(src='@/assets/curso/temas/tema2/img-2-1.svg', alt='La figura 7, indica las diferentes entidades con cumplimiento en el sistema obligatorio de garantía de la calidad.')
-          figcaption Nota. Tomado del Sistema obligatorio de garantía de calidad en salud (SOGCS). Ministerio de Salud y Protección Social.
+          figcaption Nota. Tomado del Sistema Obligatorio de Garantía de Calidad en Salud (SOGCS). Ministerio de Salud y Protección Social.
 
     .row.mt-5.mb-3
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
@@ -77,7 +77,7 @@
           p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Entidades que deben cumplir con el sistema obligatorio de garantía de la calidad </em>
         figure
           img(src='@/assets/curso/temas/tema2/img-2-2.svg', alt='La figura 7, indica las diferentes entidades con cumplimiento en el sistema obligatorio de garantía de la calidad.') 
-          figcaption Nota. Tomado del Sistema obligatorio de garantía de calidad en salud (SOGCS). Ministerio de Salud y Protección Social.
+          figcaption Nota. Tomado del Sistema obligatorio de Garantía de Calidad en Salud (SOGCS). Ministerio de Salud y Protección Social.
 
     p.mb-5 Como este sistema une y articula diversos procesos y procedimientos debe cumplir con los atributos de calidad específicos que se describen a continuación: 
 
@@ -255,7 +255,7 @@
                 td Demostrar que cuentan con talento humano para la operación del aseguramiento en salud. 
               tr
                 td Disponer de un órgano de dirección, estructura orgánica y funcional definida. 
-                td(rowspan="3") Sistema de la bases de datos de los afiliados que permita el  estado de salud; la gestión de la red integral; la autorización electrónica, garantice la trazabilidad de las facturas y  trámite al prestador de servicios de salud , la gestión financiera y contable, la gestión de riesgos en salud.
+                td(rowspan="3") Sistema de las bases de datos de los afiliados que permita el  estado de salud; la gestión de la red integral; la autorización electrónica, garantice la trazabilidad de las facturas y  trámite al prestador de servicios de salud, la gestión financiera y contable, la gestión de riesgos en salud.
                 td Gestión integral del riesgo en salud.  
               tr
                 td Tener auditoría y estructura orgánica; personal con conocimiento; política de talento humano; implementación de procesos y monitoreo.
@@ -284,7 +284,7 @@
         i.lista-ul__vineta
         | <strong>El Decreto 903 de 2014,</strong> actualiza los componentes del sistema único de acreditación, que se encuentra reglamentado desde el año 2002 bajo la Resolución 1774, luego actualizado mediante la Resolución 1445 del año 2006 y la Resolución 123 de 2012. 
  
-    p.mb-5 Mediante el Decreto 903 de 2014 MinSalud delegó al ICONTEC el proceso de acreditación en Colombia, por ello, es necesario conocer que la entidad a cargo de los procesos de acreditación a su vez debe estar certificada por la International <strong><em>Society for Quality in Healthcare - ISQUA</em></strong> y presentar experiencia de certificación de 5 años continuos.  En el proceso de acreditación es fundamental dirigir las acciones hacia los siguientes ejes.
+    p.mb-5 Mediante el Decreto 903 de 2014 MinSalud delegó al ICONTEC el proceso de acreditación en Colombia, por ello, es necesario conocer que la entidad a cargo de los procesos de acreditación a su vez debe estar certificada por la <strong>International</strong> <strong><em>Society for Quality in Healthcare - ISQUA</em></strong> y presentar experiencia de certificación de 5 años continuos.  En el proceso de acreditación es fundamental dirigir las acciones hacia los siguientes ejes.
 
     .BGIMG02.p-4.mb-4
       SlyderB.mb-5(:datos="datosSlyder")
@@ -499,7 +499,7 @@
       .col-12.col-md-10.col-lg-10(data-aos="fade-right")
         .tabla-b.color-acento-contenido.mb-5
           table(style="min-width:auto")
-            caption Nota. Resolución 3100 de 2019. Ministerio de Salud y Protección Social. https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%203100%20de%202019.pdf
+            caption Nota. Resolución 3100 de 2019. Ministerio de Salud y Protección Social. https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%203100%20de%202019.pdf La prestación de los servicios de salud puede realizarse por medio de diversas modalidades, en las cuales se distinguen las siguientes:
             thead
               tr.cabecera-a.text-center(style="background-color:#F9BCAB") 
                 th Estándar

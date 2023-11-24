@@ -181,7 +181,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-9-2.svg', alt='La figura 1 describe las principales características entre la ley 100 de 1993 y la ley 1438 de 2011, ésta última promulgada con el fin de modificar la ley 100.') 
 
-    p.mb-5 Acorde con lo dispuesto en la Ley 100 de 1993 se generaron los diversos sistemas que componen el Sistema general de Seguridad Social en Salud – SGSSS.  A continuación, se hace una descripción de cada uno de estos.
+    p.mb-5 Acorde con lo dispuesto en la Ley 100 de 1993 se generaron los diversos sistemas que componen el Sistema General de Seguridad Social en Salud – SGSSS.  A continuación, se hace una descripción de cada uno de estos.
 
     .row.align-items-center.mb-2
       .col-auto.pe-0(style="z-index:2")
@@ -835,7 +835,7 @@
 
       .col-md-4
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="6" titulo="Universalización del aseguramiento") Indica que todas las personas tendrán derecho acceder a los servicios de salud, incluso,  a las personas que provienen del extranjero se les ofrecerá seguro médico o plan voluntario de salud (plan de atención complementaria, medicina prepagada, pólizas de seguros y otros planes autorizados por la Superintendencia financiera y la Superintendencia nacional de salud.
+          p.text-small(numero="6" titulo="Universalización del aseguramiento") Indica que todas las personas tendrán derecho acceder a los servicios de salud, incluso,  a las personas que provienen del extranjero se les ofrecerá seguro médico o plan voluntario de salud plan de atención complementaria, medicina prepagada, pólizas de seguros y otros planes autorizados por la Superintendencia financiera y la Superintendencia nacional de salud.
           
           p.text-small(numero="7" titulo="Redes integradas de servicios de salud") Estas son definidas como un grupo de organizaciones o redes que prestan servicios de salud (prestadores públicos, privados o mixtos) en un espacio poblacional determinado. Se debe tener presente que estas redes deben dar atención primaria en salud, teniendo en cuenta a la persona, la familia y la comunidad, así mismo, identificando todos los factores de riesgo y protectores.
           
@@ -983,19 +983,19 @@
           .anexo__texto
             p <strong>Descargar.</strong> Componentes de la Ley estatutaria 1751 de 2015.
 
-    p.mb-5 En el componente relacionado con las rutas integrales de atención en salud -RIAS, la descripción de los elementos que la conforman se encuentra explicado en la siguiente figura.
+    p.mb-5 En el componente relacionado con las Rutas Integrales de Atención en Salud -RIAS, la descripción de los elementos que la conforman se encuentra explicado en la siguiente figura.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Rutas integrales de atención en salud -RIAS</em>
+          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Rutas Integrales de Atención en Salud -RIAS</em>
         figure
           img.mb-3(src='@/assets/curso/temas/tema1/img-34-1.svg', alt='La figura 6 indica cuales son las rutas integrales de atención en salud - RIAS, como son: prestador primario, prestador complementario, entidades administrativas de planes de beneficio y entidades territoriales.')
 
     .row.mt-5.mb-4
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Rutas integrales de atención en salud -RIAS</em>
+          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Rutas Integrales de Atención en Salud -RIAS</em>
         figure
           img(src='@/assets/curso/temas/tema1/img-34-2.svg', alt='La figura 6 indica cuales son las rutas integrales de atención en salud - RIAS, como son: prestador primario, prestador complementario, entidades administrativas de planes de beneficio y entidades territoriales.') 
 

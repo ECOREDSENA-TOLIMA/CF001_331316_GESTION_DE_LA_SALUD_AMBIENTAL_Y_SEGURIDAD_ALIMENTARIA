@@ -30,7 +30,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          '1.	Conceptos de los principios normativos y fundamentales del Sistema general de Seguridad Social en Salud (SGSSS) y los soportes de la red de servicios de salud',
+          'Conceptos de los principios normativos y fundamentales del Sistema General de Seguridad Social en Salud (SGSSS) y los soportes de la red de servicios de salud',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -60,7 +60,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Sistema obligatorio de garantía de la calidad',
+        titulo: 'Sistema Obligatorio de Garantía de la Calidad',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -201,7 +201,7 @@ export default {
     {
       termino: 'Archivo plano',
       significado:
-        'Es un archivo informático compuesto únicamente por texto sin formato, solo por caracteres, lo que hace que sea legible de forma sencilla por humanos. Carece de información destinada a generar formatos (negritas, subrayado, cursivas, tamaño, etc.) y tipos de letra (por ejemplo, Arial, Times, Courier, etc.). El término texto plano proviene de una traducción literal del término inglés plain text, término que en lengua castellana significa texto simple o texto sencillo (Sensagent, 2022).',
+        'Es un archivo informático compuesto únicamente por texto sin formato, solo por caracteres, lo que hace que sea legible de forma sencilla por humanos. Carece de información destinada a generar formatos (negritas, subrayado, cursivas, tamaño, etc.) y tipos de letra (por ejemplo, Arial, Times, Courier, etc.). El término texto plano proviene de una traducción literal del término inglés <em>plain text,</em> término que en lengua castellana significa texto simple o texto sencillo (Sensagent, 2022).',
     },
     {
       termino: 'Autoevaluación',
@@ -214,7 +214,7 @@ export default {
         'Sistema para verificar y mantener un nivel deseado de calidad en un servicio específico mediante el planeamiento cuidadoso, el uso del equipamiento adecuado, el chequeo continuo y la aplicación de las medidas correctivas necesarias (OPS, 2016).',
     },
     {
-      termino: 'Criterio ',
+      termino: 'Criterio',
       significado:
         'Es un indicador o descripción de la calidad de las actividades que se están evaluando (ISO Tools, s.f.). ',
     },
@@ -229,12 +229,12 @@ export default {
         'En medicina o propedéutica clínica es el procedimiento por el cual se identifica una enfermedad, entidad nosológica, síndrome o cualquier condición de salud - enfermedad. (MinSalud, 2013).',
     },
     {
-      termino: 'Estándar ',
+      termino: 'Estándar',
       significado:
         'Son todos aquellos criterios mínimos de un servicio de salud (MinSalud, 2014).',
     },
     {
-      termino: 'Evento adverso ',
+      termino: 'Evento adverso',
       significado:
         'Es el resultado de una atención en salud que de manera no intencional produce un daño en la salud de la persona. Los eventos adversos pueden ser prevenibles y no prevenibles (MinSalud, 2016).',
     },
@@ -244,7 +244,7 @@ export default {
         'Es el acceso a la seguridad social en salud que garantiza no incurrir en discriminación de las personas residentes en el territorio colombiano por razones de cultura, sexo, raza, origen, nacionalidad, orientación sexual, religión, edad o capacidad económica (MinSalud, 2013). ',
     },
     {
-      termino: 'Incidente ',
+      termino: 'Incidente',
       significado:
         'Es un evento o circunstancia que ocurre durante el proceso de atención clínica de un paciente, este no genera daño, pero que en su ocurrencia se incorporan fallas en los procesos de atención en el marco de los procesos con calidad (OMS, 2002).',
     },
@@ -254,7 +254,7 @@ export default {
         'Es el responsable de hacer el monitoreo a los indicadores de salud pública para cada municipio y departamento, lo cual permite tener información desagregada de los resultados por asegurador, prestador y ente territorial (Ley 1438 de 2011).',
     },
     {
-      termino: 'Participación social  ',
+      termino: 'Participación social',
       significado:
         'Se refiere a la intervención de la comunidad en la organización, control, gestión y fiscalización de las instituciones y del sistema en conjunto (MinSalud, 2013).',
     },
@@ -269,7 +269,7 @@ export default {
         'Corresponde a cualquier persona natural o jurídica, establecimiento o institución, que se encuentre autorizada para otorgar prestaciones de salud, tales como: consulta, consultorio, hospital, clínica, centro médico, centro de diagnóstico terapéutico, centro de referencia de salud, laboratorio y otros de cualquier naturaleza, incluidas las ambulancias y otros vehículos adaptados para la atención extrahospitalaria (MinSalud, 2013). ',
     },
     {
-      termino: 'Prevención ',
+      termino: 'Prevención',
       significado:
         'Es el enfoque orientado a la precaución que se aplica a la gestión del riesgo en el marco de la evaluación de los procedimientos y la prestación de los servicios de salud (MinSalud, 2013).',
     },

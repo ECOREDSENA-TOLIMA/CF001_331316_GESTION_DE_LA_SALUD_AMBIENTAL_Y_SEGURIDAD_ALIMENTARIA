@@ -10,14 +10,14 @@
             img(src="@/assets/template/cuestionario.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
-          h2 Sistema general de seguridad social en salud - SGSSS
+          h2 Sistema General de Seguridad Social en Salud - SGSSS
         p.mb-4 #[b Objetivo:] identificar los conceptos generales y normativos presentes en la fundamentación de las políticas públicas del sector salud.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Cuestionario
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividad/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
